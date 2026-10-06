@@ -1,145 +1,119 @@
-# auto-scraping-everyday
+# GAS Paper Harvester
 
-Daily academic paper harvesting with Google Apps Script using CiNii OpenSearch.
+CiNii Research・arXiv・Crossrefから論文情報を収集し、Googleスプレッドシートに保存してメール配信します。**GASに1ファイルを貼り付け、時間主導トリガーで動かす運用**です。Node.jsは開発時のテスト専用で、本番には不要です。
 
-## Overview
-- 「夢（dream）」（設定から検索設定は変更可能）に関する学術論文を自動収集
-- 毎日：既存研究をリサーチして、メールアドレスに１０件通知
-- 週1回：新着論文の通知
-- 各リサーチ結果はスプレッドシートに自動で蓄積。
-- Google Apps Script + Google Sheets + Gmail
+## 今回の修正
 
-## Features
-- Official CiNii OpenSearch API usage (no illegal scraping)
-- Duplicate-safe harvesting
-- Configurable keyword-based title search
-- Email notifications
-- Designed for long-term academic research
+- 取得件数とページ送り幅の不一致、保存前の切り詰め、リクエスト上限到達後の空送りによる取りこぼしを修正。
+- テーマ・API・検索語ごとに、過去分と新着の進捗を独立保存。各検索を順番に処理し、次回は続きから再開。
+- 過去分の終端、繰り返されるページ、検索可能件数上限、設定したページ上限で停止。
+- CiNii Researchの論文用URL・1始まりの開始位置・ソート順・出版日フィールドに対応。
+- 夢・実験哲学・AI×哲学を同じGASプロジェクトで運用可能。テーマごとに別タブへ保存。
+- スクリプトロックでトリガーの重複実行を防止。HTTP 429/5xxを回数・時間制限付きで再試行。
+- 日本語タイトルの重複キー、DOIの大文字小文字、arXivの版違いを正規化。
+- 未送信状態をシートに保存し、メール失敗時は次回再試行。本文のプレーンテキストも設定。
+- 外部データの数式化・メールHTMLへの混入を防止。既存列の衝突は書き込まずエラーにする。
 
-## File Structure
-- `auto_scraping_everyday.js` — main GAS script
+## 既存GASからの切り替え
 
-## Setup
-## 初回実行と承認の手順（GASを初めて使う人向け）
+1. 現行コードとスクリプトプロパティを控える。実行中の処理が終わってから貼り替える。
+2. **[auto_scraping_everyday.js](auto_scraping_everyday.js) の全文**で、既存コードを置き換える。旧コードを別ファイルに残すと関数名が衝突します。V8ランタイムを使ってください。
+3. GAS「プロジェクトの設定 → スクリプトプロパティ」で下記の値を確認する。
+4. `getHarvestStatus` を手動実行する。設定と進捗の確認専用で、API・シート書き込み・メール送信はありません。
+5. 既存のトリガーは関数名が同じなので継続利用できます。時刻・タイムゾーンも設定に合わせる場合は `installTriggers` を一度実行。
+6. GASでの初回試運転は `runBackfillDaily`。既定ではシート保存のみです。`SEND_BACKFILL_EMAIL=true` ならメールも送ります。`runNewArrivalsWeekly` は `NOTIFY_EMAIL` があれば新規分を送信します。
 
-Google Apps Script（GAS）は、**初回実行時に必ず「権限の承認」**が必要です。  
-この承認を行わないと、メール送信や外部APIアクセスが実行されません。
+既存の `papers` のA:Gとデータは維持し、H:Iに `notify_status` / `notify_mode` を追加します。H:Iに別用途のデータがあれば上書きせず停止します。新テーマのタブは初回実行時に作成し、既存の「夢現論・参考文献候補」など他のタブは操作しません。
 
-以下の手順は **最初の1回だけ** 行えば十分です。
+旧 `BACKFILL_START` は検索語間で共有され、途中の未取得分もあり得るため**引き継ぎません**。最初から再走査し、既存行のURL・キーで重複を除きます。過去の誤登録や、古いコードで通知し損ねた行は自動削除・再送しません。
 
----
+## スクリプトプロパティ
 
-### 1. Google Apps Script プロジェクトを開く
+| キー | 既定値・設定内容 |
+| --- | --- |
+| `SPREADSHEET_ID` | 必須。対象ブックのURLの `/d/` と `/edit` の間のID |
+| `CINII_APP_ID` | CiNiiを含む場合のみ必須。既存のIDを利用 |
+| `NOTIFY_EMAIL` | 送信先。空欄ならメール無効 |
+| `TOPICS_JSON` | 複数テーマ設定。省略時は従来どおり夢の研究のみ |
+| `SHEET_NAME` | `papers`。`TOPICS_JSON` 未指定時のみ |
+| `KEYWORDS_LIST` | `夢,悪夢,dream,dreaming,lucid dream,nightmare`。`TOPICS_JSON` 未指定時のみ |
+| `QUERY_STRING` | `KEYWORDS_LIST` を明示的に空欄にし、`SEARCH_FIELD_MODE=q` にした場合の検索式 |
+| `SEARCH_FIELD_MODE` | `title`。CiNiiのみ。`q` は自由語検索 |
+| `MAX_ITEMS` | `10`。**全テーマ合計**の1実行あたり新規保存上限、1〜200 |
+| `PER_KEYWORD_COUNT` | `5`。APIの1ページ件数、1〜100。残り保存枠に合わせて縮小 |
+| `MAX_FETCH_REQUESTS` | `10`。全API合計のHTTP試行上限、1〜100。再試行も含む |
+| `MAX_PAGES_PER_RUN` | `3`。1実行あたり各検索に回ってくる処理機会の上限、1〜20 |
+| `MAX_RUNTIME_SECONDS` | `240`。処理予算、30〜270。通信開始前に残り15秒を確保 |
+| `MAX_BACKFILL_PAGES` | `1000`。各検索の過去分を何ページまで調べるか、1〜10000 |
+| `WEEKLY_PAGES` | `3`。新着候補を各検索の先頭から何ページ調べるか、1〜100 |
+| `SEND_BACKFILL_EMAIL` | `false`。過去分も通知するなら `true` |
+| `ABSTRACT_MAX_CHARS` | `200`。0〜5000、0で抄録保存を省略 |
+| `REQUIRE_ABSTRACT` | `false`。`true` なら抄録のない論文を除外 |
+| `EXCLUDE_TITLE_KEYWORDS` | `映画,ブックガイド,特別鼎談,ニュース,連載,ガイド,旅,小説,エッセイ,随筆,対談,座談会,書評,特集`。空欄で無効 |
+| `EXCLUDE_MODE` | `exclude`。`demote` は該当行を取得ページ内で後ろに並べて保存 |
+| `LANG` | `ja`。CiNiiの応答言語。`en` も可 |
+| `DAILY_HOUR` / `WEEKLY_HOUR` | `9`。0〜23 |
+| `WEEKLY_WEEKDAY` | `MONDAY`。`TUESDAY` 等の英語大文字 |
+| `TIME_ZONE` | `Asia/Tokyo` |
 
-1. Google ドライブで新しい Google Apps Script プロジェクトを作成  
-   （または、このリポジトリのコードを貼り付ける）
-2. `GAS_everyday.js` をプロジェクトに追加
-3. コードを保存（Ctrl / Cmd + S）
+数値や真偽値が不正なら、暗黙に補正せず設定エラーにします。`SEND_WHEN_ZERO` は廃止し、通知対象が0件ならメールを送りません。メールを無効にして保存した行は `disabled` になり、後からアドレスを設定しても自動送信しません。
 
----
+## 3テーマを同時に回す
 
-### 2. Script Properties を先に設定する（重要）
+[examples/topics.json](examples/topics.json) のJSON全体を `TOPICS_JSON` の値へ貼り付けます。これは開始用の検索設定で、結果の関連性を見て検索語を調整してください。APIを利用しない場合は該当する `queries` のキーを削除します。
 
-初回実行前に、必ず Script Properties を設定してください。
+- `id`: 英小文字・数字・`_`・`-`、40文字以内で一意。
+- `name`: メール件名のテーマ名。
+- `sheetName`: テーマごとに異なる保存先タブ名。
+- `queries.cinii`: `SEARCH_FIELD_MODE` で指定した項目の検索式。
+- `queries.arxiv`: `ti:` / `all:` / `AND` / `OR` を使ったarXiv検索式。
+- `queries.crossref`: タイトル検索語。Crossrefの検索は完全一致や厳密なAND条件を保証しません。
+- `includeTitleGroups`: 任意の追加フィルター。グループ間はAND、グループ内はORの、大文字小文字を区別しない部分一致。厳しくすると有用な論文も落ちます。短い `AI` などは無関係な単語にも一致し得ます。
 
-1. 左側メニュー「⚙ プロジェクトの設定」
-2. 「スクリプト プロパティ」欄で以下を追加：
-   - `SPREADSHEET_ID`
-   - `NOTIFY_EMAIL`
-   - `CINII_APP_ID`
-   - （必要に応じて他の設定値）
+同じ論文が複数テーマに該当する場合は、それぞれのタブに保存します。API間の重複はDOI等の取得できた識別子で除外します。既存行にDOIがなくURLも異なる場合など、同一論文と特定できないものは残ります。
 
-※ 未設定のまま実行すると、エラーで停止します（仕様です）。
+## 終了・再開の意味
 
----
+`getHarvestStatus` の `backfill` / `weekly` に `offset`, `pages`, `done`, `reason` が出ます。
 
-### 3. 初回実行（installTriggers）
+| reason | 意味・操作 |
+| --- | --- |
+| `exhausted` | その検索の終端を確認。過去分は以降APIを呼ばない |
+| `api-limit` | CiNii/Crossrefは10,000件、arXivは30,000件の取得範囲で停止。全件取得完了ではないため検索式を絞る |
+| `page-limit` | `MAX_BACKFILL_PAGES` 到達。必要なら上限変更で再走査 |
+| `repeated-page` | 同じページが返る状態を検出して停止。APIや検索式を確認 |
+| `weekly-window` | 設定した新着候補のページ数を確認済み。次回は先頭から |
+| 空欄 | 進行中。予算切れ・失敗時は保存済みの位置から次回再開 |
 
-1. エディタ上部の関数選択プルダウンから  
-   **`installTriggers`** を選択
-2. ▶（実行）ボタンをクリック
+終了判定は**除外・重複排除前のAPI応答**を使います。「新規保存0件」だけでは過去分を終了しません。
 
----
+終了した過去分の検索はスキップしますが、日次トリガー自体は残します。未送信メールの再試行と、テーマ追加後の自動開始のためです。新着の定期チェックは継続します。全停止は `stopHarvestTriggers`、再開は `installTriggers`。この2つは本スクリプトのハンドラのトリガーだけを操作します。
 
-### 4. 権限承認（ここが一番つまずきやすい）
+`resetHarvestProgress` は本スクリプトの進捗だけを消し、保存行・他の設定は残します。検索式・保存先・フィルターなどの変更も該当検索を先頭から再走査させます。不要になった旧設定の進捗が蓄積した場合も、この関数で整理できます。
 
-初回実行時、以下のダイアログが表示されます。
+## 通知と新着チェックの限界
 
-#### 手順
+- 未送信行は `pending`、送信成功後は `sent`。各実行・各テーマで最大20件をまとめて送信します。メールが失敗しても保存行は残り、日次・週次のいずれの実行でも再試行します。
+- 送信成功直後にGASが終了し、`sent` を保存できなかった場合は再送され得ます。MailAppとシート間で「厳密に1回だけ」の送信は保証できません。
+- 週次は出版日・投稿日順の**先頭数ページにある未登録論文**の探索です。週内に出版された論文だけの厳密な差分ではありません。大量の追加や遅れて索引登録された古い論文は範囲外になり得ます。`WEEKLY_PAGES` と予算を増やすか、定期的に過去分を再走査してください。
+- ページ番号方式の検索は、走査中の追加・削除・並び順の変化により重複や取りこぼしが起こり得ます。過去分を古い順に処理して影響を抑えますが、APIの完全なスナップショットではありません。
+- 実行時間の上限は通信前の判定です。GASの同期HTTP呼び出し自体を途中で打ち切ることはできません。
+- `MAX_ITEMS` は保存件数であり、メール件数は未送信の再試行分を含みます。除外結果の多いページでは取得件数に対して保存件数が少なくなります。
 
-1. 「承認が必要です」というダイアログ → **続行**
-2. Googleアカウントを選択
-3. 「このアプリは Google によって確認されていません」と表示された場合：
-   - 「詳細」をクリック
-   - 「（プロジェクト名）に移動」をクリック
-4. 権限一覧を確認し、「許可」
+## APIの選択
 
-#### 承認される主な権限
-- 外部サービスへのアクセス（CiNii API）
-- Google スプレッドシートの読み書き
-- メール送信（MailApp）
-- トリガーの作成
+実装済みはCiNii Research / arXiv / Crossrefです。OpenAlex等の比較、一次資料、対象範囲は [docs/api-options.md](docs/api-options.md) を参照してください。コードはAPIを取得しますが論文本文のスクレイピングは行いません。
 
-※ これは **自分自身のスクリプト** なので、安全です。
+## 開発・検証
 
----
+```sh
+npm ci
+npm test
+npm run check
+```
 
-### 5. トリガーが作成されたことを確認
-
-1. 左メニュー「⏱ トリガー」を開く
-2. 次の2つが存在すれば成功：
-
-| 関数名 | 実行頻度 |
-|---|---|
-| `runBackfillDaily` | 毎日 |
-| `runNewArrivalsWeekly` | 週1回 |
-
-※ ここでトリガーが見えない場合、`installTriggers` を再実行してください。
-
----
-
-### 6. 動作確認（任意・推奨）
-
-#### 深掘り（毎日処理）の確認
-- 関数：`runBackfillDaily`
-- 手動実行 → スプレッドシートに行が追加されるか確認
-
-#### 新着通知（週1処理）の確認
-- 関数：`runNewArrivalsWeekly`
-- 手動実行 → 新規があればメールが届く
-
-※ 深掘りはデフォルトではメール通知しません  
-（`SEND_BACKFILL_EMAIL=true` にすると通知されます）
-
----
-
-## よくあるトラブルと対処
-
-### メールが届かない
-- `SEND_BACKFILL_EMAIL` が `false` ではないか確認
-- 実行した関数が `runBackfillDaily` ではないか確認
-- 迷惑メールフォルダを確認
-
-### エラーが出る
-- Script Properties の必須項目が未設定
-- CiNii AppID が間違っている
-- 実行ログ（`表示 → ログ`）を確認
-
----
-
-## 初回セットアップはここまで
-
-- 権限承認は **最初の1回だけ**
-- 以降はすべて自動実行
-- スクリプトを触らなくても、論文は静かに蓄積されていきます
-
-
-## Configuration
-（Script Properties の表）
-
-## Notes on CiNii Usage
-- This script uses the official CiNii OpenSearch API.
-- No HTML scraping is performed.
+テストはGASの各サービスを模擬し、実メール・本番シートを操作しません。API別の応答解析、ページ進行、終了条件、複数テーマ、失敗後再開、重複排除、ロック、通知状態を検証します。GAS上の認証・外部API到達性・時間主導トリガーの実行は、貼り付け後に実環境で確認が必要です。
 
 ## License
-MIT License
+
+MIT
