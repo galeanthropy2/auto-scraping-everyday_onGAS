@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+.clasp.json
+
+# Reproducible audit intermediate (source samples and readable report are versioned).
+docs/query-audit/**/evaluation.json
+__pycache__/

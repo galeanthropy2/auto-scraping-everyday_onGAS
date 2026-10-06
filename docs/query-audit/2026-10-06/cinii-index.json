@@ -1,0 +1,146 @@
+[
+  {
+    "query": "夢 睡眠 哲学",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "夢とうつつ | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390001205323846912"
+      },
+      {
+        "title": "Dreams in Relation to Memory, Emotion, and Creativity: An Integration from the Perspective of Predictive Processing | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390869998261156096"
+      },
+      {
+        "title": "「夢の哲学」最後期の一資料 -Nyayalilavati 「夢章」試訳- | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1050001202480363264"
+      },
+      {
+        "title": "ベルクソンにおける「夢」 :『物質と記憶』を中心に | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390290699580107008"
+      },
+      {
+        "title": "Réflexion sur « l’anthroponomie » dans Physiologie du goût de Brillat-Savarin autour des phénomènes du repos, du sommeil et du rêve | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1050282677926616192"
+      }
+    ]
+  },
+  {
+    "query": "悪夢 意識",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "睡眠時随伴症群 : 悪夢障害(悪夢症) | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1521699230819217536"
+      },
+      {
+        "title": "悪夢と金縛り : その心理生理的背景 | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1522262180383998464"
+      },
+      {
+        "title": "夢を媒介とする心理療法の歴史と展開 | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1050845763150519552"
+      },
+      {
+        "title": "Estimation of dream content by machine learning using magnetoencephalographic data. | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1040299826883067520"
+      },
+      {
+        "title": "Case report on the coronavirus pandemic dream in Japan | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390008841540075904"
+      }
+    ]
+  },
+  {
+    "query": "dream dreaming lucid dream nightmare",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "The Relationship between Lucid Dreaming Frequency, Nightmare Frequency, and the Frequency of Sensory and Emotional Experiences during Dreams: Based on the results of a 24-year survey of university students | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390870696579069056"
+      },
+      {
+        "title": "Lucid Dreaming : Its Experimental Proof and Psychological Conditions(<Main topic>The Fifteenth Symposium on Life Information Science) | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390564238091561088"
+      },
+      {
+        "title": "What are the neural mechanisms and physiological functions of dreams? | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1360580238106326016"
+      },
+      {
+        "title": "Dreams in Relation to Memory, Emotion, and Creativity: An Integration from the Perspective of Predictive Processing | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390869998261156096"
+      },
+      {
+        "title": "Scoping Review on the Functions of Dreams: Focusing on Emotional Aspects | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1050866968100589056"
+      }
+    ]
+  },
+  {
+    "query": "実験哲学 experimental philosophy",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "バークリーはイギリス経験論の異端児か : ダブリンの実験哲学というコンテクストからの再考 | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1050564288909653120"
+      },
+      {
+        "title": "書評 W. S. セラーズ著,神野慧一郎・土屋純一・中才敏郎訳『経験論と心の哲学』 | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1520009409147022720"
+      }
+    ]
+  },
+  {
+    "query": "人工知能 倫理",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "Governance Challenges and Initiatives for Social Implementation of AI：Paving a Path for Social Implementation of \"Human-Centric AI\" Principles - AI Social Principles and AI Governance Guidelines in Japan | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390293180203826304"
+      },
+      {
+        "title": "Ethical Challenges in the Age of Generative AI | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390585504098004224"
+      },
+      {
+        "title": "AI原則の国際的な潮流と日本のAI原則の特質 : 今後の見直し検討に向けた政策上の示唆 | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390018351897457024"
+      },
+      {
+        "title": "IEEE “Ethically Aligned Design”: Commentary from Inter/Trans-disciplinary workshop in Japan | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390001277364551552"
+      },
+      {
+        "title": "Bioethics in AI - Overall Perspective and Direction for Future Researches in This Field | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1040003825729668608"
+      }
+    ]
+  },
+  {
+    "query": "AI 意識",
+    "method": "external search index of CiNii records; NOT native/API ranking",
+    "items": [
+      {
+        "title": "汎用人工知能プラットフォームとしての人工意識",
+        "url": "https://cir.nii.ac.jp/crid/1390570873703790976"
+      },
+      {
+        "title": "AI Discovery of Mechanisms of Consciousness, Its Disorders, and Their Treatment | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1360869855564060160"
+      },
+      {
+        "title": "人工無脳における人工意識",
+        "url": "https://cir.nii.ac.jp/crid/1520009409406507520"
+      },
+      {
+        "title": "A Phenomenological Study of Self-Consciousness (Final Chapter) | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390588976725194112"
+      },
+      {
+        "title": "AI哲学マップ(第3回)ベルクソン的「時間スケール」を軸に新たな知能と意識の構成可能性を探る(前編) | CiNii Research",
+        "url": "https://cir.nii.ac.jp/crid/1390570022237041408"
+      }
+    ]
+  }
+]

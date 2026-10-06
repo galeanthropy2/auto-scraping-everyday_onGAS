@@ -1,0 +1,247 @@
+[
+  {
+    "topic": "dream",
+    "title": "Dream and consciousness",
+    "url": "https://doi.org/10.1111/j.1479-8425.2004.00127.x",
+    "expected": true,
+    "reason": "夢と意識の直接的な論点"
+  },
+  {
+    "topic": "dream",
+    "title": "Toward a Phenomenology of Dream Imagery and Metaphor",
+    "url": "https://doi.org/10.2307/3192330",
+    "expected": true,
+    "reason": "夢の現象学"
+  },
+  {
+    "topic": "dream",
+    "title": "The phenomenology of dream–reality confusion: A quantitative study.",
+    "url": "https://doi.org/10.1037/drm0000078",
+    "expected": true,
+    "reason": "夢と現実の経験的区別"
+  },
+  {
+    "topic": "dream",
+    "title": "Performatives and dream skepticism",
+    "url": "https://doi.org/10.1007/bf00375718",
+    "expected": true,
+    "reason": "夢の懐疑論"
+  },
+  {
+    "topic": "dream",
+    "title": "Descartes and Dream Skepticism Revisited",
+    "url": "https://doi.org/10.1353/hph.1992.0050",
+    "expected": true,
+    "reason": "デカルトと夢の懐疑論"
+  },
+  {
+    "topic": "dream",
+    "title": "Do neutrinos dream in 5D? Towards a comprehensive extra-dimensional neutrino phenomenology",
+    "url": "https://doi.org/10.1007/jhep05(2026)152",
+    "expected": false,
+    "reason": "素粒子物理での比喩的dream/phenomenology"
+  },
+  {
+    "topic": "dream",
+    "title": "Utopian Dream and Dark Consciousness",
+    "url": "https://doi.org/10.1215/25783491-7480357",
+    "expected": false,
+    "reason": "ユートピアの比喩的な夢"
+  },
+  {
+    "topic": "dream",
+    "title": "A Deep-Dream Virtual Reality Platform for Studying Altered Perceptual Phenomenology",
+    "url": "https://doi.org/10.1038/s41598-017-16316-2",
+    "expected": false,
+    "reason": "Deep-Dream画像生成プラットフォーム"
+  },
+  {
+    "topic": "dream",
+    "title": "LUCID: A Training-Free Few-Shot Framework for Leaf Disease Diagnosis via Visual–Knowledge Evidence Fusion",
+    "url": "https://doi.org/10.3390/horticulturae12101241",
+    "expected": false,
+    "reason": "植物疾患の診断アルゴリズム"
+  },
+  {
+    "topic": "dream",
+    "title": "Lucid dreaming and sleep characteristics in posttraumatic stress disorder.",
+    "url": "https://doi.org/10.1037/drm0000331",
+    "expected": false,
+    "reason": "臨床症状との関連が中心"
+  },
+  {
+    "topic": "dream",
+    "title": "Relational hypnotherapy, lucid dreaming, and sleep paralysis: A case study",
+    "url": "https://doi.org/10.1080/00029157.2026.2661649",
+    "expected": false,
+    "reason": "催眠療法の症例研究"
+  },
+  {
+    "topic": "dream",
+    "title": "夢とうつつ",
+    "url": "https://cir.nii.ac.jp/crid/1390001205323846912",
+    "expected": true,
+    "reason": "夢と知覚を論じる既知の哲学論文"
+  },
+  {
+    "topic": "dream",
+    "title": "ベルクソンにおける「夢」 :『物質と記憶』を中心に",
+    "url": "https://cir.nii.ac.jp/crid/1390290699580107008",
+    "expected": true,
+    "reason": "ベルクソンの夢論"
+  },
+  {
+    "topic": "dream",
+    "title": "夢うつつ白羊宮--「幻想映画室白羊宮」主人追懐 付・幻想映画室<白羊宮>のあゆみ",
+    "url": "https://cir.nii.ac.jp/crid/1523669554809423616",
+    "expected": false,
+    "reason": "映画館追悼記事"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Experimental Philosophy",
+    "url": "https://doi.org/10.1093/analys/anp104",
+    "expected": true,
+    "reason": "実験哲学そのもの"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Folk Intuitions on Free Will",
+    "url": "https://doi.org/10.1163/156853706776931385",
+    "expected": true,
+    "reason": "自由意志の素朴直観"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Normativity and Epistemic Intuitions",
+    "url": "https://doi.org/10.5840/philtopics2001291/217",
+    "expected": true,
+    "reason": "認識的直観の実験哲学文献"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Lay intuitions about epistemic normativity",
+    "url": "https://doi.org/10.1007/s11229-017-1371-6",
+    "expected": true,
+    "reason": "語順が異なる認識的直観"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "A simple linguistic approach to the Knobe effect, or the Knobe effect without any vignette",
+    "url": "https://doi.org/10.1007/s11098-017-0926-1",
+    "expected": true,
+    "reason": "ノーブ効果"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Concept Revision, Concept Application and the Role of Intuitions in Gettier Cases",
+    "url": "https://doi.org/10.1017/epi.2022.49",
+    "expected": true,
+    "reason": "ゲティア事例と直観"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "The Gettier-illusion: Gettier-partialism and infallibilism",
+    "url": "https://doi.org/10.1007/s11229-011-9924-6",
+    "expected": false,
+    "reason": "タイトルだけでは直観や実証方法を確認できない"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "A chlorhexidine-releasing epoxy-based coating on titanium implants prevents Staphylococcus aureus experimental biomaterial-associated infection",
+    "url": "https://doi.org/10.22203/ecm.v033a11",
+    "expected": false,
+    "reason": "experimentalのみに合う医学論文"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "title": "Photovoltaic maximum power extraction and delivery based on adaptive PSO-neural network-fuzzy algorithms implemented using an experimental test bench",
+    "url": "https://doi.org/10.1016/j.uncres.2026.100490",
+    "expected": false,
+    "reason": "実験装置による発電性能の研究"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Philosophy and Artificial Intelligence",
+    "url": "https://doi.org/10.2307/2214201",
+    "expected": true,
+    "reason": "AI哲学"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "What Can Analogy Tell Us About Artificial Consciousness?",
+    "url": "http://arxiv.org/abs/2610.01002v1",
+    "expected": true,
+    "reason": "人工意識への類推"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Contesting Artificial Moral Agents",
+    "url": "http://arxiv.org/abs/2603.00066v1",
+    "expected": true,
+    "reason": "人工的道徳主体"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Agent or hammer?: A philosophical inquiry into machine moral agency",
+    "url": "https://doi.org/10.1007/s43681-025-00920-4",
+    "expected": true,
+    "reason": "機械の道徳的主体性"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Epistemology and artificial intelligence",
+    "url": "https://doi.org/10.1016/j.jal.2004.07.007",
+    "expected": true,
+    "reason": "AI認識論"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Anticipatory Human Oversight of Agentic AI: A Philosophical Account",
+    "url": "http://arxiv.org/abs/2609.24242v1",
+    "expected": true,
+    "reason": "AI監督の哲学的議論"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "An Evaluation of the Semantic Understanding Capabilities of Large Language Models for Web Attack Payloads",
+    "url": "http://arxiv.org/abs/2610.06507v1",
+    "expected": false,
+    "reason": "攻撃文字列の理解性能の評価"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Understanding the Weight Averaging Mechanism in LLM Training for Post-Training Quantization",
+    "url": "http://arxiv.org/abs/2610.05329v1",
+    "expected": false,
+    "reason": "量子化技術"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+    "url": "http://arxiv.org/abs/2606.25984v2",
+    "expected": false,
+    "reason": "投資方針を用いた性能ベンチマーク"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+    "url": "http://arxiv.org/abs/2610.03948v1",
+    "expected": false,
+    "reason": "自動運転の工学性能が主目的"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "Rethinking Moral Agency",
+    "url": "https://doi.org/10.24252/kah.v14i1a5",
+    "expected": false,
+    "reason": "AI・機械の対象がタイトルにない"
+  },
+  {
+    "topic": "ai_philosophy",
+    "title": "AI哲学マップ(第1回)人工知能と哲学の\"これまで\"と\"これから\"",
+    "url": "https://cir.nii.ac.jp/crid/1390005822567119104",
+    "expected": true,
+    "reason": "関連する哲学解説を一律に連載として落とさない"
+  }
+]

@@ -1,0 +1,3423 @@
+[
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=lucid+dreaming&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=asc",
+    "checked_at": "2026-10-06T12:33:57.010822+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 4389,
+    "items": [
+      {
+        "title": "I. An account of several nebulæ or lucid spots like clouds, lately discovered among the fixt stars by help of the telescope",
+        "url": "https://doi.org/10.1098/rstl.1714.0046",
+        "doi": "10.1098/rstl.1714.0046",
+        "published": [
+          [
+            1716,
+            3,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "II. On the diameter and magnitude of the Georgium Sidus; with a description of the dark and lucid disk and periphery micrometers",
+        "url": "https://doi.org/10.1098/rstl.1783.0002",
+        "doi": "10.1098/rstl.1783.0002",
+        "published": [
+          [
+            1783,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "XLII. <i>An essay on dreaming, including conjectures on the proximate cause of sleep</i>",
+        "url": "https://doi.org/10.1080/14786441908652223",
+        "doi": "10.1080/14786441908652223",
+        "published": [
+          [
+            1819,
+            10
+          ]
+        ],
+        "journal": [
+          "The Philosophical Magazine"
+        ]
+      },
+      {
+        "title": "LVI. <i>An essay on dreaming, including conjectures on the proximate cause of sleep</i>",
+        "url": "https://doi.org/10.1080/14786441908652240",
+        "doi": "10.1080/14786441908652240",
+        "published": [
+          [
+            1819,
+            11
+          ]
+        ],
+        "journal": [
+          "The Philosophical Magazine"
+        ]
+      },
+      {
+        "title": "Talk Not of Childhood's Dreaming Time",
+        "url": "https://doi.org/10.2307/30058118",
+        "doi": "10.2307/30058118",
+        "published": [
+          [
+            1830
+          ]
+        ],
+        "journal": [
+          "The National Magazine"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=lucid+dreaming&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:33:59.752066+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 4389,
+    "items": [
+      {
+        "title": "Synthetic dreaming for state-conditioned epistemic exploration in neural networks",
+        "url": "https://doi.org/10.1016/j.neunet.2026.109664",
+        "doi": "10.1016/j.neunet.2026.109664",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Neural Networks"
+        ]
+      },
+      {
+        "title": "Social media reveals population dynamics of dysphoric dreaming",
+        "url": "https://doi.org/10.1016/j.sleepe.2026.100156",
+        "doi": "10.1016/j.sleepe.2026.100156",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Sleep Epidemiology"
+        ]
+      },
+      {
+        "title": "Physiology of the subconscious: Autonomic activation during sexual dreaming",
+        "url": "https://doi.org/10.1016/j.sleepx.2026.100174",
+        "doi": "10.1016/j.sleepx.2026.100174",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Sleep Medicine: X"
+        ]
+      },
+      {
+        "title": "LUCID: A Training-Free Few-Shot Framework for Leaf Disease Diagnosis via Visual–Knowledge Evidence Fusion",
+        "url": "https://doi.org/10.3390/horticulturae12101241",
+        "doi": "10.3390/horticulturae12101241",
+        "published": [
+          [
+            2026,
+            10,
+            5
+          ]
+        ],
+        "journal": [
+          "Horticulturae"
+        ]
+      },
+      {
+        "title": "Dreaming Elsewhere: Shadows of Hope and Dreams of Departure in Kareem Sheghaidil’s Cartoon Dreams",
+        "url": "https://doi.org/10.66359/itqan.v1i4.076",
+        "doi": "10.66359/itqan.v1i4.076",
+        "published": [
+          [
+            2026,
+            10,
+            4
+          ]
+        ],
+        "journal": [
+          "مجلة الاتقان للعلوم الإنسانية"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "nightmare sleep",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=nightmare+sleep&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=asc",
+    "checked_at": "2026-10-06T12:34:02.713332+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 206682,
+    "items": [
+      {
+        "title": "VI. An account of a person who took a great quantity of opium, without causing sleep",
+        "url": "https://doi.org/10.1098/rstl.1700.0107",
+        "doi": "10.1098/rstl.1700.0107",
+        "published": [
+          [
+            1701,
+            10,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "LXV. Some observation upon the sleep of plants; and an account of that faculty, which Linnæus calls vigiliæ florum; with an enumeration of several plants, which are subject to that law",
+        "url": "https://doi.org/10.1098/rstl.1757.0066",
+        "doi": "10.1098/rstl.1757.0066",
+        "published": [
+          [
+            1757,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "VII. <i>Observations on the winter sleep of animals and plants</i>",
+        "url": "https://doi.org/10.1080/14786449908676974",
+        "doi": "10.1080/14786449908676974",
+        "published": [
+          [
+            1799,
+            3
+          ]
+        ],
+        "journal": [
+          "The Philosophical Magazine"
+        ]
+      },
+      {
+        "title": "XXVII. <i>On the phœnomena of sleep</i>",
+        "url": "https://doi.org/10.1080/14786441408637986",
+        "doi": "10.1080/14786441408637986",
+        "published": [
+          [
+            1814,
+            2
+          ]
+        ],
+        "journal": [
+          "The Philosophical Magazine"
+        ]
+      },
+      {
+        "title": "XIII. <i>Account of the remarkable Case of Margaret Lyall, who continued in a State of Sleep nearly Six Weeks</i>",
+        "url": "https://doi.org/10.1017/s008045680002891x",
+        "doi": "10.1017/s008045680002891x",
+        "published": [
+          [
+            1818
+          ]
+        ],
+        "journal": [
+          "Transactions of the Royal Society of Edinburgh"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "nightmare sleep",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=nightmare+sleep&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:05.027931+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 206682,
+    "items": [
+      {
+        "title": "Sleep Quality Among Iranian Hemodialysis: A Multicenter Study",
+        "url": "https://doi.org/10.5812/numonthly.23849",
+        "doi": "10.5812/numonthly.23849",
+        "published": [
+          [
+            2038,
+            1,
+            19
+          ]
+        ],
+        "journal": [
+          "Nephro-Urology Monthly"
+        ]
+      },
+      {
+        "title": "Baihe Ganmai Dazao Decoction ameliorates depression-like and sleep-disturbance phenotypes: potential involvement of IL-17A/IL-17RA-related inflammatory signaling and microglial polarization",
+        "url": "https://doi.org/10.1016/j.jep.2026.122393",
+        "doi": "10.1016/j.jep.2026.122393",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Ethnopharmacology"
+        ]
+      },
+      {
+        "title": "Shenghui decoction improves sleep-deprivation-induced cognitive impairment in mice by modulating neuroinflammation, NRG1/ErbB4 signaling, and purine metabolism",
+        "url": "https://doi.org/10.1016/j.jep.2026.122412",
+        "doi": "10.1016/j.jep.2026.122412",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Ethnopharmacology"
+        ]
+      },
+      {
+        "title": "Sleep regulation as a function of boredom proneness",
+        "url": "https://doi.org/10.1016/j.paid.2026.114110",
+        "doi": "10.1016/j.paid.2026.114110",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Personality and Individual Differences"
+        ]
+      },
+      {
+        "title": "Corrigendum to ‘Implementation and evaluation of the multidisciplinary ‘ABCDEF of sleep’ protocol in Brazilian intensive care units: A quasi-experimental study. Results of a two-phase’ [J. Crit. Care 95 155649]",
+        "url": "https://doi.org/10.1016/j.jcrc.2026.155737",
+        "doi": "10.1016/j.jcrc.2026.155737",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Critical Care"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=asc",
+    "checked_at": "2026-10-06T12:34:08.381296+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 824462,
+    "items": [
+      {
+        "title": "An experimental history of cold",
+        "url": "https://doi.org/10.1098/rstl.1665.0006",
+        "doi": "10.1098/rstl.1665.0006",
+        "published": [
+          [
+            1665,
+            3,
+            6
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "A further account of Mr. Boyle's experimental history of cold",
+        "url": "https://doi.org/10.1098/rstl.1665.0025",
+        "doi": "10.1098/rstl.1665.0025",
+        "published": [
+          [
+            1665,
+            5,
+            8
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An extract of a letter, written by J. Denis, doctor of physick, and professor of philosophy and the mathematicks at Paris, touching a late cure of an inveterate phrensy by the transfusion of bloud",
+        "url": "https://doi.org/10.1098/rstl.1666.0065",
+        "doi": "10.1098/rstl.1666.0065",
+        "published": [
+          [
+            1666,
+            2,
+            10
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An extract of a letter of M. Denis Prof. of philosophy and mathematicks to M. * * * touching the transfusion of blood, of April 2. 1667",
+        "url": "https://doi.org/10.1098/rstl.1666.0013",
+        "doi": "10.1098/rstl.1666.0013",
+        "published": [
+          [
+            1667,
+            5,
+            6
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An account of some books. I. The History of the Royal Society of London, for the advancement of experimental philosophy, by Tho. Sprat. II. Disquisitio Anatomica de Formato Fætu: Authore Gualtero Needham M.D. Londini, in 8°. III. Elementorum Mylogiæ specimen; seu Musculi descriptio geometrica, authore Nicolao Stenone",
+        "url": "https://doi.org/10.1098/rstl.1666.0038",
+        "doi": "10.1098/rstl.1666.0038",
+        "published": [
+          [
+            1667,
+            9,
+            23
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:10.343314+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 824462,
+    "items": [
+      {
+        "title": "Experimental methods to corruption",
+        "url": "https://doi.org/10.15556/ijsim.01.04.003",
+        "doi": "10.15556/ijsim.01.04.003",
+        "published": [
+          [
+            2114
+          ]
+        ],
+        "journal": [
+          "International Journal of Strategic Innovative Marketing"
+        ]
+      },
+      {
+        "title": "A chlorhexidine-releasing epoxy-based coating on titanium implants prevents Staphylococcus aureus experimental biomaterial-associated infection",
+        "url": "https://doi.org/10.22203/ecm.v033a11",
+        "doi": "10.22203/ecm.v033a11",
+        "published": [
+          [
+            2107,
+            2,
+            14
+          ]
+        ],
+        "journal": [
+          "European Cells and Materials"
+        ]
+      },
+      {
+        "title": "Artistic philosophy of death in short stories by G. Gazdanov",
+        "url": "https://doi.org/10.17223/18137083/55/9",
+        "doi": "10.17223/18137083/55/9",
+        "published": [
+          [
+            2031,
+            1,
+            1
+          ]
+        ],
+        "journal": [
+          "Sibirskiy filologicheskiy zhurnal"
+        ]
+      },
+      {
+        "title": "SISTEMAS DE POLIMENTO EM CIMENTOS IONÔMERO DE VIDRO: UMA ANÁLISE EXPERIMENTAL DA RUGOSIDADE E MANCHAMENTO SUPERFICIAL",
+        "url": "https://doi.org/10.22409/jsac0x11",
+        "doi": "10.22409/jsac0x11",
+        "published": [
+          [
+            2027,
+            9,
+            6
+          ]
+        ],
+        "journal": [
+          "Revista Fluminense de Odontologia"
+        ]
+      },
+      {
+        "title": "Photovoltaic maximum power extraction and delivery based on adaptive PSO-neural network-fuzzy algorithms implemented using an experimental test bench",
+        "url": "https://doi.org/10.1016/j.uncres.2026.100490",
+        "doi": "10.1016/j.uncres.2026.100490",
+        "published": [
+          [
+            2027,
+            7
+          ]
+        ],
+        "journal": [
+          "Unconventional Resources"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=asc",
+    "checked_at": "2026-10-06T12:34:13.013317+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 557546,
+    "items": [
+      {
+        "title": "An extract of a letter, written by J. Denis, doctor of physick, and professor of philosophy and the mathematicks at Paris, touching a late cure of an inveterate phrensy by the transfusion of bloud",
+        "url": "https://doi.org/10.1098/rstl.1666.0065",
+        "doi": "10.1098/rstl.1666.0065",
+        "published": [
+          [
+            1666,
+            2,
+            10
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An extract of a letter of M. Denis Prof. of philosophy and mathematicks to M. * * * touching the transfusion of blood, of April 2. 1667",
+        "url": "https://doi.org/10.1098/rstl.1666.0013",
+        "doi": "10.1098/rstl.1666.0013",
+        "published": [
+          [
+            1667,
+            5,
+            6
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An account of some books. I. The History of the Royal Society of London, for the advancement of experimental philosophy, by Tho. Sprat. II. Disquisitio Anatomica de Formato Fætu: Authore Gualtero Needham M.D. Londini, in 8°. III. Elementorum Mylogiæ specimen; seu Musculi descriptio geometrica, authore Nicolao Stenone",
+        "url": "https://doi.org/10.1098/rstl.1666.0038",
+        "doi": "10.1098/rstl.1666.0038",
+        "published": [
+          [
+            1667,
+            9,
+            23
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An extract of a letter, lately written by Monsieur Louys de Bills to D. Tobias Andreæ Professor of Physick and Philosophy at Duysborgh on the Rhyn ; touching the true use of the lymphatick-vessels, &amp;c",
+        "url": "https://doi.org/10.1098/rstl.1668.0044",
+        "doi": "10.1098/rstl.1668.0044",
+        "published": [
+          [
+            1668,
+            10,
+            19
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "An accompt of three books. - I. De anglorum gentis origine disceptatio, Auth. Rob. Sheringhamo Cantabrigiensi, Colleg. Gonvilii &amp; Caii Socio. Cantabrigiæ, 1670. in 8°., II. A vindication of hydrologia chymica, by William Sympson M. D. London, for R. Chiswell in little Britain, 1670., III. A discourse in vindication of Des-Cartes's systeme, by M. Des Fourneillis: to which in annexed the systeme general of the same cartesian philosophy, by Francis Bayle, M. D. at Tolose. printed at London for Moses",
+        "url": "https://doi.org/10.1098/rstl.1670.0037",
+        "doi": "10.1098/rstl.1670.0037",
+        "published": [
+          [
+            1670,
+            8,
+            8
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:15.473813+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 557546,
+    "items": [
+      {
+        "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
+        "url": "https://doi.org/10.32598/jccnc.7.1.350.1",
+        "doi": "10.32598/jccnc.7.1.350.1",
+        "published": [
+          [
+            2121,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Client-Centered Nursing Care"
+        ]
+      },
+      {
+        "title": "We Cannot Cede Control of Weapons to Artificial Intelligence",
+        "url": "https://doi.org/10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "doi": "10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "published": [
+          [
+            2077,
+            7
+          ]
+        ],
+        "journal": [
+          "Scientific American"
+        ]
+      },
+      {
+        "title": "Artistic philosophy of death in short stories by G. Gazdanov",
+        "url": "https://doi.org/10.17223/18137083/55/9",
+        "doi": "10.17223/18137083/55/9",
+        "published": [
+          [
+            2031,
+            1,
+            1
+          ]
+        ],
+        "journal": [
+          "Sibirskiy filologicheskiy zhurnal"
+        ]
+      },
+      {
+        "title": "Evolution and Applications of Artificial Intelligence in SAIs",
+        "url": "https://doi.org/10.56251/yxek7242",
+        "doi": "10.56251/yxek7242",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "Russian ‘special military operation’ as a failed coup de main. An intelligence analysis perspective",
+        "url": "https://doi.org/10.4467/20801335pbw.25.015.22181",
+        "doi": "10.4467/20801335pbw.25.015.22181",
+        "published": [
+          [
+            2028,
+            8,
+            14
+          ]
+        ],
+        "journal": [
+          "Przegląd Bezpieczeństwa Wewnętrznego"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence ethics",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+ethics&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=asc",
+    "checked_at": "2026-10-06T12:34:20.160152+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 571040,
+    "items": [
+      {
+        "title": "VI. A method of making artificial magnets without the use of natural ones; communicated to the Royal Society by John Canton, M. A. &amp; F. R. S. To which is prefixed the President's report",
+        "url": "https://doi.org/10.1098/rstl.1751.0007",
+        "doi": "10.1098/rstl.1751.0007",
+        "published": [
+          [
+            1752,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "LXIV. An account of artificial cold produced at Petersburg: By Dr. Himsel. In a letter to Dr. De Castro, F. R. S. translated from the French by James Parsons, M. D. F. R. S",
+        "url": "https://doi.org/10.1098/rstl.1759.0066",
+        "doi": "10.1098/rstl.1759.0066",
+        "published": [
+          [
+            1759,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "XXI. Some further intelligence relating to the jaculator fish, mentioned in the Philosophical Transactions for 1764, Art. XIV. from Mr. Hommel, at Batavia, together with the description of another species, by Dr. Pallas, F. R. S. in a letter to Mr. Peter Collinson, F. R. S. from John Albert Schlosser, M.D. F. R. S.",
+        "url": "https://doi.org/10.1098/rstl.1766.0021",
+        "doi": "10.1098/rstl.1766.0021",
+        "published": [
+          [
+            1766,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "V. Account of Dr. Knight's method of making artificial loadstones",
+        "url": "https://doi.org/10.1098/rstl.1779.0006",
+        "doi": "10.1098/rstl.1779.0006",
+        "published": [
+          [
+            1779,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      },
+      {
+        "title": "II. Of the method of rendering very sensible the weakest natural or artificial electricity",
+        "url": "https://doi.org/10.1098/rstl.1782.0005",
+        "doi": "10.1098/rstl.1782.0005",
+        "published": [
+          [
+            1782,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Philosophical Transactions of the Royal Society of London"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence ethics",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+ethics&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:22.907006+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 571040,
+    "items": [
+      {
+        "title": "Natural Sustainability Ethics for Resolving Current Outer Space Challenges",
+        "url": "https://doi.org/10.61781/11i20212bmlm",
+        "doi": "10.61781/11i20212bmlm",
+        "published": [
+          [
+            2121,
+            4,
+            20
+          ]
+        ],
+        "journal": [
+          "Journal of Business, Ethics and Society"
+        ]
+      },
+      {
+        "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
+        "url": "https://doi.org/10.32598/jccnc.7.1.350.1",
+        "doi": "10.32598/jccnc.7.1.350.1",
+        "published": [
+          [
+            2121,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Client-Centered Nursing Care"
+        ]
+      },
+      {
+        "title": "We Cannot Cede Control of Weapons to Artificial Intelligence",
+        "url": "https://doi.org/10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "doi": "10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "published": [
+          [
+            2077,
+            7
+          ]
+        ],
+        "journal": [
+          "Scientific American"
+        ]
+      },
+      {
+        "title": "Evolution and Applications of Artificial Intelligence in SAIs",
+        "url": "https://doi.org/10.56251/yxek7242",
+        "doi": "10.56251/yxek7242",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "Russian ‘special military operation’ as a failed coup de main. An intelligence analysis perspective",
+        "url": "https://doi.org/10.4467/20801335pbw.25.015.22181",
+        "doi": "10.4467/20801335pbw.25.015.22181",
+        "published": [
+          [
+            2028,
+            8,
+            14
+          ]
+        ],
+        "journal": [
+          "Przegląd Bezpieczeństwa Wewnętrznego"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream sleep",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+sleep&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:25.400485+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 224287,
+    "items": [
+      {
+        "title": "Yawning, sleep and dream",
+        "url": "https://doi.org/10.1556/oh.2011.ho2285",
+        "doi": "10.1556/oh.2011.ho2285",
+        "published": [
+          [
+            2011,
+            10
+          ]
+        ],
+        "journal": [
+          "Orvosi Hetilap"
+        ]
+      },
+      {
+        "title": "Modeling Dream and Sleep",
+        "url": "https://doi.org/10.1088/0031-8949/1989/t25/027",
+        "doi": "10.1088/0031-8949/1989/t25/027",
+        "published": [
+          [
+            1989,
+            1,
+            1
+          ]
+        ],
+        "journal": [
+          "Physica Scripta"
+        ]
+      },
+      {
+        "title": "SLEEP, DREAM, AND RELAX",
+        "url": "https://doi.org/10.1002/j.2326-1951.1962.tb00612.x",
+        "doi": "10.1002/j.2326-1951.1962.tb00612.x",
+        "published": [
+          [
+            1962,
+            8
+          ]
+        ],
+        "journal": [
+          "The Sciences"
+        ]
+      },
+      {
+        "title": "Sleep, perchance to dream",
+        "url": "https://doi.org/10.51428/tsr.flgv5282",
+        "doi": "10.51428/tsr.flgv5282",
+        "published": [
+          [
+            2023,
+            8,
+            8
+          ]
+        ],
+        "journal": [
+          "The Sociological Review Magazine"
+        ]
+      },
+      {
+        "title": "To Dream, To Sleep…",
+        "url": "https://doi.org/10.1037/025615",
+        "doi": "10.1037/025615",
+        "published": [
+          [
+            1988,
+            4
+          ]
+        ],
+        "journal": [
+          "Contemporary Psychology: A Journal of Reviews"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream sleep",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+sleep&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:28.133411+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 224287,
+    "items": [
+      {
+        "title": "Sleep Quality Among Iranian Hemodialysis: A Multicenter Study",
+        "url": "https://doi.org/10.5812/numonthly.23849",
+        "doi": "10.5812/numonthly.23849",
+        "published": [
+          [
+            2038,
+            1,
+            19
+          ]
+        ],
+        "journal": [
+          "Nephro-Urology Monthly"
+        ]
+      },
+      {
+        "title": "DREAM-Boost: Asymmetric boosting with soft local expert correction for decision-oriented proxy need prediction in urban EV charging",
+        "url": "https://doi.org/10.1016/j.epsr.2026.113944",
+        "doi": "10.1016/j.epsr.2026.113944",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Electric Power Systems Research"
+        ]
+      },
+      {
+        "title": "Baihe Ganmai Dazao Decoction ameliorates depression-like and sleep-disturbance phenotypes: potential involvement of IL-17A/IL-17RA-related inflammatory signaling and microglial polarization",
+        "url": "https://doi.org/10.1016/j.jep.2026.122393",
+        "doi": "10.1016/j.jep.2026.122393",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Ethnopharmacology"
+        ]
+      },
+      {
+        "title": "Shenghui decoction improves sleep-deprivation-induced cognitive impairment in mice by modulating neuroinflammation, NRG1/ErbB4 signaling, and purine metabolism",
+        "url": "https://doi.org/10.1016/j.jep.2026.122412",
+        "doi": "10.1016/j.jep.2026.122412",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Ethnopharmacology"
+        ]
+      },
+      {
+        "title": "Sleep regulation as a function of boredom proneness",
+        "url": "https://doi.org/10.1016/j.paid.2026.114110",
+        "doi": "10.1016/j.paid.2026.114110",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Personality and Individual Differences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+consciousness&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:30.741427+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 61578,
+    "items": [
+      {
+        "title": "Dream and consciousness",
+        "url": "https://doi.org/10.1111/j.1479-8425.2004.00127.x",
+        "doi": "10.1111/j.1479-8425.2004.00127.x",
+        "published": [
+          [
+            2004,
+            5
+          ]
+        ],
+        "journal": [
+          "Sleep and Biological Rhythms"
+        ]
+      },
+      {
+        "title": "Utopian Dream and Dark Consciousness",
+        "url": "https://doi.org/10.1215/25783491-7480357",
+        "doi": "10.1215/25783491-7480357",
+        "published": [
+          [
+            2019,
+            3,
+            1
+          ]
+        ],
+        "journal": [
+          "Prism"
+        ]
+      },
+      {
+        "title": "Psychohistorical Origin of Dream Consciousness",
+        "url": "https://doi.org/10.70763/816a6db41f0e44644bc65808b6db5ca4",
+        "doi": "10.70763/816a6db41f0e44644bc65808b6db5ca4",
+        "published": [
+          [
+            1994
+          ]
+        ],
+        "journal": [
+          "Clio's Psyche"
+        ]
+      },
+      {
+        "title": "Dream Consciousness in Problem Solving",
+        "url": "https://doi.org/10.2190/du8h-bbym-l31g-60c0",
+        "doi": "10.2190/du8h-bbym-l31g-60c0",
+        "published": [
+          [
+            1991,
+            6
+          ]
+        ],
+        "journal": [
+          "Imagination, Cognition and Personality"
+        ]
+      },
+      {
+        "title": "Studies of the Dream Consciousness. II",
+        "url": "https://doi.org/10.2307/1412430",
+        "doi": "10.2307/1412430",
+        "published": [
+          [
+            1900,
+            10
+          ]
+        ],
+        "journal": [
+          "The American Journal of Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+consciousness&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:33.325946+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 61578,
+    "items": [
+      {
+        "title": "DREAM-Boost: Asymmetric boosting with soft local expert correction for decision-oriented proxy need prediction in urban EV charging",
+        "url": "https://doi.org/10.1016/j.epsr.2026.113944",
+        "doi": "10.1016/j.epsr.2026.113944",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Electric Power Systems Research"
+        ]
+      },
+      {
+        "title": "Store coolness in luxury fashion: Antecedents, outcomes, and the moderating role of price consciousness",
+        "url": "https://doi.org/10.1016/j.jretconser.2026.105130",
+        "doi": "10.1016/j.jretconser.2026.105130",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Journal of Retailing and Consumer Services"
+        ]
+      },
+      {
+        "title": "Designing the future of consciousness: A components framework and speculative implications",
+        "url": "https://doi.org/10.1016/j.ijhcs.2026.103926",
+        "doi": "10.1016/j.ijhcs.2026.103926",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "International Journal of Human-Computer Studies"
+        ]
+      },
+      {
+        "title": "Dream training for active control of multiphase flow in spray fluidized beds",
+        "url": "https://doi.org/10.1016/j.ces.2026.124778",
+        "doi": "10.1016/j.ces.2026.124778",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Chemical Engineering Science"
+        ]
+      },
+      {
+        "title": "From neural propagation to conscious experience: A geometro-diffusion theory of consciousness",
+        "url": "https://doi.org/10.1016/j.jtbi.2026.112610",
+        "doi": "10.1016/j.jtbi.2026.112610",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Theoretical Biology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+phenomenology&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:36.225305+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 36215,
+    "items": [
+      {
+        "title": "Toward a Phenomenology of Dream Imagery and Metaphor",
+        "url": "https://doi.org/10.2307/3192330",
+        "doi": "10.2307/3192330",
+        "published": [
+          [
+            1979,
+            11
+          ]
+        ],
+        "journal": [
+          "Art Education"
+        ]
+      },
+      {
+        "title": "The phenomenology of dream–reality confusion: A quantitative study.",
+        "url": "https://doi.org/10.1037/drm0000078",
+        "doi": "10.1037/drm0000078",
+        "published": [
+          [
+            2018,
+            9
+          ]
+        ],
+        "journal": [
+          "Dreaming"
+        ]
+      },
+      {
+        "title": "Neurophysiological features of dream recall and the phenomenology of dreams: Auditory stimulation impacts dream experiences",
+        "url": "https://doi.org/10.1016/j.concog.2025.103869",
+        "doi": "10.1016/j.concog.2025.103869",
+        "published": [
+          [
+            2025,
+            7
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      },
+      {
+        "title": "Kilka zadań fenomenologii snu",
+        "url": "https://doi.org/10.31261/fp.21381",
+        "doi": "10.31261/fp.21381",
+        "published": [
+          [
+            2011,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Folia Philosophica"
+        ]
+      },
+      {
+        "title": "A Deep-Dream Virtual Reality Platform for Studying Altered Perceptual Phenomenology",
+        "url": "https://doi.org/10.1038/s41598-017-16316-2",
+        "doi": "10.1038/s41598-017-16316-2",
+        "published": [
+          [
+            2017,
+            11,
+            22
+          ]
+        ],
+        "journal": [
+          "Scientific Reports"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+phenomenology&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:39.150465+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 36215,
+    "items": [
+      {
+        "title": "DREAM-Boost: Asymmetric boosting with soft local expert correction for decision-oriented proxy need prediction in urban EV charging",
+        "url": "https://doi.org/10.1016/j.epsr.2026.113944",
+        "doi": "10.1016/j.epsr.2026.113944",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Electric Power Systems Research"
+        ]
+      },
+      {
+        "title": "Dream training for active control of multiphase flow in spray fluidized beds",
+        "url": "https://doi.org/10.1016/j.ces.2026.124778",
+        "doi": "10.1016/j.ces.2026.124778",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Chemical Engineering Science"
+        ]
+      },
+      {
+        "title": "Strong Einstein–Hilbert gravity inflation and ACT phenomenology",
+        "url": "https://doi.org/10.1016/j.aop.2026.170746",
+        "doi": "10.1016/j.aop.2026.170746",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Annals of Physics"
+        ]
+      },
+      {
+        "title": "Unveiling the meaning of communities' experience in developing rural tourism in Borobudur, Indonesia: A phenomenology study",
+        "url": "https://doi.org/10.1016/j.ssaho.2026.103321",
+        "doi": "10.1016/j.ssaho.2026.103321",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Social Sciences &amp; Humanities Open"
+        ]
+      },
+      {
+        "title": "State of health estimation for lithium-ion batteries based on physics-informed pseudo-labeling and dream-optimization-algorithm-optimized MDC-Net",
+        "url": "https://doi.org/10.1016/j.est.2026.124221",
+        "doi": "10.1016/j.est.2026.124221",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Journal of Energy Storage"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream recall",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+recall&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:42.113625+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 40726,
+    "items": [
+      {
+        "title": "Dream Recall",
+        "url": "https://doi.org/10.1176/ajp.128.3.296",
+        "doi": "10.1176/ajp.128.3.296",
+        "published": [
+          [
+            1971,
+            9
+          ]
+        ],
+        "journal": [
+          "American Journal of Psychiatry"
+        ]
+      },
+      {
+        "title": "Restructuring Dream-Recall",
+        "url": "https://doi.org/10.2466/pms.1983.57.2.629",
+        "doi": "10.2466/pms.1983.57.2.629",
+        "published": [
+          [
+            1983,
+            10
+          ]
+        ],
+        "journal": [
+          "Perceptual and Motor Skills"
+        ]
+      },
+      {
+        "title": "Dream recall and dream recall failure: An arousal-retrieval model.",
+        "url": "https://doi.org/10.1037/0033-2909.83.5.975",
+        "doi": "10.1037/0033-2909.83.5.975",
+        "published": [
+          [
+            1976,
+            9
+          ]
+        ],
+        "journal": [
+          "Psychological Bulletin"
+        ]
+      },
+      {
+        "title": "Effects of training in dream recall and dream interpretation skills on dream recall, attitudes, and dream interpretation outcome.",
+        "url": "https://doi.org/10.1037/0022-0167.46.1.27",
+        "doi": "10.1037/0022-0167.46.1.27",
+        "published": [
+          [
+            1999,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Counseling Psychology"
+        ]
+      },
+      {
+        "title": "Effects of training in dream recall and dream interpretation skills on dream recall, attitudes, and dream interpretation outcome.",
+        "url": "https://doi.org/10.1037//0022-0167.46.1.27",
+        "doi": "10.1037//0022-0167.46.1.27",
+        "published": [
+          [
+            1999
+          ]
+        ],
+        "journal": [
+          "Journal of Counseling Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream recall",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+recall&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:44.491883+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 40726,
+    "items": [
+      {
+        "title": "DREAM-Boost: Asymmetric boosting with soft local expert correction for decision-oriented proxy need prediction in urban EV charging",
+        "url": "https://doi.org/10.1016/j.epsr.2026.113944",
+        "doi": "10.1016/j.epsr.2026.113944",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Electric Power Systems Research"
+        ]
+      },
+      {
+        "title": "Development of mental imagery strategy in a recall task as a function of word imageability and grade level in elementary school children",
+        "url": "https://doi.org/10.1016/j.learninstruc.2026.102483",
+        "doi": "10.1016/j.learninstruc.2026.102483",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Learning and Instruction"
+        ]
+      },
+      {
+        "title": "Dream training for active control of multiphase flow in spray fluidized beds",
+        "url": "https://doi.org/10.1016/j.ces.2026.124778",
+        "doi": "10.1016/j.ces.2026.124778",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Chemical Engineering Science"
+        ]
+      },
+      {
+        "title": "Numeracy and recall of Alzheimer’s disease risk information: Effects of risk format in a Latino community",
+        "url": "https://doi.org/10.1016/j.pec.2026.110330",
+        "doi": "10.1016/j.pec.2026.110330",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Patient Education and Counseling"
+        ]
+      },
+      {
+        "title": "Changes in neural activation and in functional connectivity during affective memory recall after six months of psychotherapy: An fMRI study of individuals with depression",
+        "url": "https://doi.org/10.1016/j.jad.2026.122532",
+        "doi": "10.1016/j.jad.2026.122532",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Affective Disorders"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream neurocognitive",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+neurocognitive&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:47.160472+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 35373,
+    "items": [
+      {
+        "title": "Neurocognitive dynamics of spontaneous offline simulations: Re-conceptualizing (dream)bizarreness",
+        "url": "https://doi.org/10.1080/09515089.2022.2042231",
+        "doi": "10.1080/09515089.2022.2042231",
+        "published": [
+          [
+            2022,
+            2,
+            27
+          ]
+        ],
+        "journal": [
+          "Philosophical Psychology"
+        ]
+      },
+      {
+        "title": "Emotion regulation as reflected in children’s dreams – a developmental test of the neurocognitive dream theory",
+        "url": "https://doi.org/10.1556/0406.17.2016.2.5",
+        "doi": "10.1556/0406.17.2016.2.5",
+        "published": [
+          [
+            2016,
+            6
+          ]
+        ],
+        "journal": [
+          "Mentálhigiéné és Pszichoszomatika"
+        ]
+      },
+      {
+        "title": "From Dream, to Dream, to Dream",
+        "url": "https://doi.org/10.1353/ctr.0.0007",
+        "doi": "10.1353/ctr.0.0007",
+        "published": [
+          [
+            2010,
+            1
+          ]
+        ],
+        "journal": [
+          "Canadian Theatre Review"
+        ]
+      },
+      {
+        "title": "P02-194 - The Sang Bok Lee Neurocognitive Dream Orientations Scales for Screening Traumatic and PTSD-Related Dreams",
+        "url": "https://doi.org/10.1016/s0924-9338(10)70809-9",
+        "doi": "10.1016/s0924-9338(10)70809-9",
+        "published": [
+          [
+            2010
+          ]
+        ],
+        "journal": [
+          "European Psychiatry"
+        ]
+      },
+      {
+        "title": "Dream No Small Dream",
+        "url": "https://doi.org/10.1162/afar_a_00565",
+        "doi": "10.1162/afar_a_00565",
+        "published": [
+          [
+            2021
+          ]
+        ],
+        "journal": [
+          "African Arts"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream neurocognitive",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=dream+neurocognitive&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:49.255417+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 35373,
+    "items": [
+      {
+        "title": "DREAM-Boost: Asymmetric boosting with soft local expert correction for decision-oriented proxy need prediction in urban EV charging",
+        "url": "https://doi.org/10.1016/j.epsr.2026.113944",
+        "doi": "10.1016/j.epsr.2026.113944",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Electric Power Systems Research"
+        ]
+      },
+      {
+        "title": "Dream training for active control of multiphase flow in spray fluidized beds",
+        "url": "https://doi.org/10.1016/j.ces.2026.124778",
+        "doi": "10.1016/j.ces.2026.124778",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Chemical Engineering Science"
+        ]
+      },
+      {
+        "title": "Therapeutic potential of a novel PPARγ agonist in a mouse model of HIV-associated neurocognitive impairment",
+        "url": "https://doi.org/10.1016/j.bbi.2026.106981",
+        "doi": "10.1016/j.bbi.2026.106981",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Brain, Behavior, and Immunity"
+        ]
+      },
+      {
+        "title": "From dysbiosis to postoperative neurocognitive disorders: The anesthesia-disrupted microbiota-gut-brain axis",
+        "url": "https://doi.org/10.1016/j.expneurol.2026.116034",
+        "doi": "10.1016/j.expneurol.2026.116034",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Experimental Neurology"
+        ]
+      },
+      {
+        "title": "Neurocognitive effects of stress in higher education: Mechanisms, challenges, and opportunities",
+        "url": "https://doi.org/10.1016/j.bbr.2026.116470",
+        "doi": "10.1016/j.bbr.2026.116470",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Behavioural Brain Research"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:52.484146+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 824462,
+    "items": [
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1093/analys/anp104",
+        "doi": "10.1093/analys/anp104",
+        "published": [
+          [
+            2009,
+            7,
+            6
+          ]
+        ],
+        "journal": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1146/annurev-psych-120710-100350",
+        "doi": "10.1146/annurev-psych-120710-100350",
+        "published": [
+          [
+            2012,
+            1,
+            10
+          ]
+        ],
+        "journal": [
+          "Annual Review of Psychology"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1111/j.1747-9991.2006.00050.x",
+        "doi": "10.1111/j.1747-9991.2006.00050.x",
+        "published": [
+          [
+            2006,
+            11,
+            27
+          ]
+        ],
+        "journal": [
+          "Philosophy Compass"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.5840/pjphil2009319",
+        "doi": "10.5840/pjphil2009319",
+        "published": [
+          [
+            2009
+          ]
+        ],
+        "journal": [
+          "Polish Journal of Philosophy"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1515/auk-2009-0201",
+        "doi": "10.1515/auk-2009-0201",
+        "published": [
+          [
+            2009,
+            11,
+            1
+          ]
+        ],
+        "journal": [
+          "Analyse &amp; Kritik"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:34:54.752213+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 824462,
+    "items": [
+      {
+        "title": "Experimental methods to corruption",
+        "url": "https://doi.org/10.15556/ijsim.01.04.003",
+        "doi": "10.15556/ijsim.01.04.003",
+        "published": [
+          [
+            2114
+          ]
+        ],
+        "journal": [
+          "International Journal of Strategic Innovative Marketing"
+        ]
+      },
+      {
+        "title": "A chlorhexidine-releasing epoxy-based coating on titanium implants prevents Staphylococcus aureus experimental biomaterial-associated infection",
+        "url": "https://doi.org/10.22203/ecm.v033a11",
+        "doi": "10.22203/ecm.v033a11",
+        "published": [
+          [
+            2107,
+            2,
+            14
+          ]
+        ],
+        "journal": [
+          "European Cells and Materials"
+        ]
+      },
+      {
+        "title": "Artistic philosophy of death in short stories by G. Gazdanov",
+        "url": "https://doi.org/10.17223/18137083/55/9",
+        "doi": "10.17223/18137083/55/9",
+        "published": [
+          [
+            2031,
+            1,
+            1
+          ]
+        ],
+        "journal": [
+          "Sibirskiy filologicheskiy zhurnal"
+        ]
+      },
+      {
+        "title": "SISTEMAS DE POLIMENTO EM CIMENTOS IONÔMERO DE VIDRO: UMA ANÁLISE EXPERIMENTAL DA RUGOSIDADE E MANCHAMENTO SUPERFICIAL",
+        "url": "https://doi.org/10.22409/jsac0x11",
+        "doi": "10.22409/jsac0x11",
+        "published": [
+          [
+            2027,
+            9,
+            6
+          ]
+        ],
+        "journal": [
+          "Revista Fluminense de Odontologia"
+        ]
+      },
+      {
+        "title": "Photovoltaic maximum power extraction and delivery based on adaptive PSO-neural network-fuzzy algorithms implemented using an experimental test bench",
+        "url": "https://doi.org/10.1016/j.uncres.2026.100490",
+        "doi": "10.1016/j.uncres.2026.100490",
+        "published": [
+          [
+            2027,
+            7
+          ]
+        ],
+        "journal": [
+          "Unconventional Resources"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=folk+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:34:57.565400+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 24962,
+    "items": [
+      {
+        "title": "Law, Coercion and Folk Intuitions",
+        "url": "https://doi.org/10.1093/ojls/gqac014",
+        "doi": "10.1093/ojls/gqac014",
+        "published": [
+          [
+            2022,
+            10,
+            10
+          ]
+        ],
+        "journal": [
+          "Oxford Journal of Legal Studies"
+        ]
+      },
+      {
+        "title": "Trope analysis and folk intuitions",
+        "url": "https://doi.org/10.1007/s11229-020-03013-3",
+        "doi": "10.1007/s11229-020-03013-3",
+        "published": [
+          [
+            2021,
+            1,
+            11
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Folk Intuitions on Free Will",
+        "url": "https://doi.org/10.1163/156853706776931385",
+        "doi": "10.1163/156853706776931385",
+        "published": [
+          [
+            2006
+          ]
+        ],
+        "journal": [
+          "Journal of Cognition and Culture"
+        ]
+      },
+      {
+        "title": "Motivational internalism and folk intuitions",
+        "url": "https://doi.org/10.1080/09515089.2014.894431",
+        "doi": "10.1080/09515089.2014.894431",
+        "published": [
+          [
+            2014,
+            4,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophical Psychology"
+        ]
+      },
+      {
+        "title": "Reflection, reflex, and folk intuitions",
+        "url": "https://doi.org/10.1016/j.concog.2011.02.018",
+        "doi": "10.1016/j.concog.2011.02.018",
+        "published": [
+          [
+            2012,
+            6
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=folk+intuitions&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:00.018004+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 24962,
+    "items": [
+      {
+        "title": "From uncertainty to dialogue: Visualising collaborative noticing and mathematical intuitions in students' narratives within probability learning",
+        "url": "https://doi.org/10.54870/1551-3440.1695",
+        "doi": "10.54870/1551-3440.1695",
+        "published": [
+          [
+            2027,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "The Mathematics Enthusiast"
+        ]
+      },
+      {
+        "title": "Application of Deep Learning Algorithms in the Transfer of Ethnic and Folk Art Design Styles in Cultural and Creative Products",
+        "url": "https://doi.org/10.1504/ijart.2027.10076929",
+        "doi": "10.1504/ijart.2027.10076929",
+        "published": [
+          [
+            2027
+          ]
+        ],
+        "journal": [
+          "International Journal of Arts and Technology"
+        ]
+      },
+      {
+        "title": "Matters arising from Olcaysoy Okten, I., Lombard, J., Harkness, A., &amp; Gullesserian, M. C. (2026). How do intellectually humble people form impressions?: Regulating initial intuitions through reflection. Personality and Individual Differences, 256, 113729. https://doi.org/10.1016/j.paid.2026.113729",
+        "url": "https://doi.org/10.1016/j.paid.2026.114038",
+        "doi": "10.1016/j.paid.2026.114038",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Personality and Individual Differences"
+        ]
+      },
+      {
+        "title": "Intuitions of compromise: Utilitarianism, egalitarianism, contractualism",
+        "url": "https://doi.org/10.1016/j.cognition.2026.106694",
+        "doi": "10.1016/j.cognition.2026.106694",
+        "published": [
+          [
+            2027,
+            1
+          ]
+        ],
+        "journal": [
+          "Cognition"
+        ]
+      },
+      {
+        "title": "Corrigendum to’ Integrating traditional, folk and home remedies with conventional medicine in the prevention and management of illness and disease in Iran: Voices of consumers’ [Adv. Integr. Med., vol. 13 (2026) 100633/ Issue 2]",
+        "url": "https://doi.org/10.1016/j.aimed.2026.100717",
+        "doi": "10.1016/j.aimed.2026.100717",
+        "published": [
+          [
+            2026,
+            12
+          ]
+        ],
+        "journal": [
+          "Advances in Integrative Medicine"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "moral judgment experiment",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=moral+judgment+experiment&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:02.342110+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 255323,
+    "items": [
+      {
+        "title": "Experiment Study on Moral Judgment in Juvenile Violent Offenders",
+        "url": "https://doi.org/10.12677/ap.2021.117194",
+        "doi": "10.12677/ap.2021.117194",
+        "published": [
+          [
+            2021
+          ]
+        ],
+        "journal": [
+          "Advances in Psychology"
+        ]
+      },
+      {
+        "title": "Moral Judgment",
+        "url": "https://doi.org/10.1177/014616728172006",
+        "doi": "10.1177/014616728172006",
+        "published": [
+          [
+            1981,
+            6
+          ]
+        ],
+        "journal": [
+          "Personality and Social Psychology Bulletin"
+        ]
+      },
+      {
+        "title": "Moral Judgment",
+        "url": "https://doi.org/10.1177/0145482x2101500424",
+        "doi": "10.1177/0145482x2101500424",
+        "published": [
+          [
+            1921,
+            12
+          ]
+        ],
+        "journal": [
+          "Journal of Visual Impairment &amp; Blindness"
+        ]
+      },
+      {
+        "title": "Moral Judgment",
+        "url": "https://doi.org/10.2307/3959916",
+        "doi": "10.2307/3959916",
+        "published": [
+          [
+            1975,
+            4,
+            5
+          ]
+        ],
+        "journal": [
+          "Science News"
+        ]
+      },
+      {
+        "title": "Moral Judgment",
+        "url": "https://doi.org/10.2307/587374",
+        "doi": "10.2307/587374",
+        "published": [
+          [
+            1957,
+            6
+          ]
+        ],
+        "journal": [
+          "The British Journal of Sociology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "moral judgment experiment",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=moral+judgment+experiment&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:05.894208+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 255323,
+    "items": [
+      {
+        "title": "Embryo or Person? A Moral and Religious Dilemma",
+        "url": "https://doi.org/10.20431/2349-0381.0303003",
+        "doi": "10.20431/2349-0381.0303003",
+        "published": [
+          [
+            2106
+          ]
+        ],
+        "journal": [
+          "International Journal of Humanities, Social Sciences and Education"
+        ]
+      },
+      {
+        "title": "Female Shrine Priests and Doctrinal Instructors in the Early Meiji Moral Edification Campaign",
+        "url": "https://doi.org/10.1353/mni.2081.0002",
+        "doi": "10.1353/mni.2081.0002",
+        "published": [
+          [
+            2081
+          ]
+        ],
+        "journal": [
+          "Monumenta Nipponica"
+        ]
+      },
+      {
+        "title": "Moral responsibilisation in destination management: The strategic framing of civic practices by DMOs",
+        "url": "https://doi.org/10.1016/j.tourman.2026.105537",
+        "doi": "10.1016/j.tourman.2026.105537",
+        "published": [
+          [
+            2027,
+            4
+          ]
+        ],
+        "journal": [
+          "Tourism Management"
+        ]
+      },
+      {
+        "title": "Study on CO2 adsorption properties of sulfur-doped porous carbon prepared from high-sulfur petroleum coke by sequential KOH-SO2 activated: GCMC calculation, experiment and kinetics",
+        "url": "https://doi.org/10.1016/j.fuel.2026.141071",
+        "doi": "10.1016/j.fuel.2026.141071",
+        "published": [
+          [
+            2027,
+            3
+          ]
+        ],
+        "journal": [
+          "Fuel"
+        ]
+      },
+      {
+        "title": "The power of morality: The effect of moral appeals on tourists’ attitudes in rural tourism destinations",
+        "url": "https://doi.org/10.1016/j.jdmm.2026.101170",
+        "doi": "10.1016/j.jdmm.2026.101170",
+        "published": [
+          [
+            2027,
+            3
+          ]
+        ],
+        "journal": [
+          "Journal of Destination Marketing &amp; Management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=epistemic+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:08.575389+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 15908,
+    "items": [
+      {
+        "title": "Epistemic Intuitions",
+        "url": "https://doi.org/10.1111/j.1747-9991.2007.00104.x",
+        "doi": "10.1111/j.1747-9991.2007.00104.x",
+        "published": [
+          [
+            2007,
+            11
+          ]
+        ],
+        "journal": [
+          "Philosophy Compass"
+        ]
+      },
+      {
+        "title": "Epistemic Intuitions and Epistemic Contextualism",
+        "url": "https://doi.org/10.1111/j.1933-1592.2006.tb00565.x",
+        "doi": "10.1111/j.1933-1592.2006.tb00565.x",
+        "published": [
+          [
+            2006,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophy and Phenomenological Research"
+        ]
+      },
+      {
+        "title": "Normativity and Epistemic Intuitions",
+        "url": "https://doi.org/10.5840/philtopics2001291/217",
+        "doi": "10.5840/philtopics2001291/217",
+        "published": [
+          [
+            2001
+          ]
+        ],
+        "journal": [
+          "Philosophical Topics"
+        ]
+      },
+      {
+        "title": "Lay intuitions about epistemic normativity",
+        "url": "https://doi.org/10.1007/s11229-017-1371-6",
+        "doi": "10.1007/s11229-017-1371-6",
+        "published": [
+          [
+            2017,
+            3,
+            29
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Religious Disagreement and Epistemic Intuitions",
+        "url": "https://doi.org/10.1017/s1358246117000224",
+        "doi": "10.1017/s1358246117000224",
+        "published": [
+          [
+            2017,
+            10
+          ]
+        ],
+        "journal": [
+          "Royal Institute of Philosophy Supplement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=epistemic+intuitions&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:10.852328+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 15908,
+    "items": [
+      {
+        "title": "Translanguaging as an epistemic mechanism in Korean immigrant parents’ mediation of mathematical meaning",
+        "url": "https://doi.org/10.1016/j.jmathb.2026.101354",
+        "doi": "10.1016/j.jmathb.2026.101354",
+        "published": [
+          [
+            2027,
+            3
+          ]
+        ],
+        "journal": [
+          "The Journal of Mathematical Behavior"
+        ]
+      },
+      {
+        "title": "Uncovering creative metacognition patterns in TVET innovation education: insight from an epistemic network analysis of students’ self-reflective assessments",
+        "url": "https://doi.org/10.1016/j.tsc.2026.102377",
+        "doi": "10.1016/j.tsc.2026.102377",
+        "published": [
+          [
+            2027,
+            3
+          ]
+        ],
+        "journal": [
+          "Thinking Skills and Creativity"
+        ]
+      },
+      {
+        "title": "Synthetic dreaming for state-conditioned epistemic exploration in neural networks",
+        "url": "https://doi.org/10.1016/j.neunet.2026.109664",
+        "doi": "10.1016/j.neunet.2026.109664",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Neural Networks"
+        ]
+      },
+      {
+        "title": "From uncertainty to dialogue: Visualising collaborative noticing and mathematical intuitions in students' narratives within probability learning",
+        "url": "https://doi.org/10.54870/1551-3440.1695",
+        "doi": "10.54870/1551-3440.1695",
+        "published": [
+          [
+            2027,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "The Mathematics Enthusiast"
+        ]
+      },
+      {
+        "title": "Gaussian-mixture importance sampling for reliability evaluation of dependent degradation systems under epistemic uncertainty",
+        "url": "https://doi.org/10.1016/j.ress.2026.113526",
+        "doi": "10.1016/j.ress.2026.113526",
+        "published": [
+          [
+            2027,
+            2
+          ]
+        ],
+        "journal": [
+          "Reliability Engineering &amp; System Safety"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophical intuitions",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophical+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:14.145986+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 767055,
+    "items": [
+      {
+        "title": "Philosophical Intuitions",
+        "url": "https://doi.org/10.12697/spe.2009.2.2.04",
+        "doi": "10.12697/spe.2009.2.2.04",
+        "published": [
+          [
+            2009,
+            2,
+            18
+          ]
+        ],
+        "journal": [
+          "Studia Philosophica Estonica"
+        ]
+      },
+      {
+        "title": "Intuitions in Philosophical Semantics",
+        "url": "https://doi.org/10.1007/s10670-014-9666-1",
+        "doi": "10.1007/s10670-014-9666-1",
+        "published": [
+          [
+            2014,
+            9,
+            14
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      },
+      {
+        "title": "Philosophical expertise beyond intuitions",
+        "url": "https://doi.org/10.1080/09515089.2017.1403576",
+        "doi": "10.1080/09515089.2017.1403576",
+        "published": [
+          [
+            2017,
+            12,
+            4
+          ]
+        ],
+        "journal": [
+          "Philosophical Psychology"
+        ]
+      },
+      {
+        "title": "Two Potential Problems with Philosophical Intuitions: Muddled Intuitions and Biased Intuitions",
+        "url": "https://doi.org/10.1007/s11406-013-9465-y",
+        "doi": "10.1007/s11406-013-9465-y",
+        "published": [
+          [
+            2013,
+            7,
+            5
+          ]
+        ],
+        "journal": [
+          "Philosophia"
+        ]
+      },
+      {
+        "title": "Empirical tests of philosophical intuitions",
+        "url": "https://doi.org/10.1016/j.concog.2011.01.013",
+        "doi": "10.1016/j.concog.2011.01.013",
+        "published": [
+          [
+            2011,
+            6
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophical intuitions",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophical+intuitions&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:16.531939+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 767055,
+    "items": [
+      {
+        "title": "Experimental methods to corruption",
+        "url": "https://doi.org/10.15556/ijsim.01.04.003",
+        "doi": "10.15556/ijsim.01.04.003",
+        "published": [
+          [
+            2114
+          ]
+        ],
+        "journal": [
+          "International Journal of Strategic Innovative Marketing"
+        ]
+      },
+      {
+        "title": "A chlorhexidine-releasing epoxy-based coating on titanium implants prevents Staphylococcus aureus experimental biomaterial-associated infection",
+        "url": "https://doi.org/10.22203/ecm.v033a11",
+        "doi": "10.22203/ecm.v033a11",
+        "published": [
+          [
+            2107,
+            2,
+            14
+          ]
+        ],
+        "journal": [
+          "European Cells and Materials"
+        ]
+      },
+      {
+        "title": "SISTEMAS DE POLIMENTO EM CIMENTOS IONÔMERO DE VIDRO: UMA ANÁLISE EXPERIMENTAL DA RUGOSIDADE E MANCHAMENTO SUPERFICIAL",
+        "url": "https://doi.org/10.22409/jsac0x11",
+        "doi": "10.22409/jsac0x11",
+        "published": [
+          [
+            2027,
+            9,
+            6
+          ]
+        ],
+        "journal": [
+          "Revista Fluminense de Odontologia"
+        ]
+      },
+      {
+        "title": "Photovoltaic maximum power extraction and delivery based on adaptive PSO-neural network-fuzzy algorithms implemented using an experimental test bench",
+        "url": "https://doi.org/10.1016/j.uncres.2026.100490",
+        "doi": "10.1016/j.uncres.2026.100490",
+        "published": [
+          [
+            2027,
+            7
+          ]
+        ],
+        "journal": [
+          "Unconventional Resources"
+        ]
+      },
+      {
+        "title": "Numerical and Experimental investigation on a new tube design featuring micro-finned tubes with broken double V-cut twisted tapes",
+        "url": "https://doi.org/10.1016/j.uncres.2026.100536",
+        "doi": "10.1016/j.uncres.2026.100536",
+        "published": [
+          [
+            2027,
+            7
+          ]
+        ],
+        "journal": [
+          "Unconventional Resources"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=machine+consciousness&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:19.448993+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 450019,
+    "items": [
+      {
+        "title": "Machine consciousness",
+        "url": "https://doi.org/10.4249/scholarpedia.4162",
+        "doi": "10.4249/scholarpedia.4162",
+        "published": [
+          [
+            2008
+          ]
+        ],
+        "journal": [
+          "Scholarpedia"
+        ]
+      },
+      {
+        "title": "On “Machine Consciousness”",
+        "url": "https://doi.org/10.1142/s2705078522500187",
+        "doi": "10.1142/s2705078522500187",
+        "published": [
+          [
+            2023,
+            3
+          ]
+        ],
+        "journal": [
+          "Journal of Artificial Intelligence and Consciousness"
+        ]
+      },
+      {
+        "title": "Machine consciousness, ambisonics",
+        "url": "https://doi.org/10.1108/03684920910944786",
+        "doi": "10.1108/03684920910944786",
+        "published": [
+          [
+            2009,
+            4,
+            10
+          ]
+        ],
+        "journal": [
+          "Kybernetes"
+        ]
+      },
+      {
+        "title": "CONSCIOUSNESS AND THE MACHINE",
+        "url": "https://doi.org/10.1111/j.1467-9744.1996.tb00021.x",
+        "doi": "10.1111/j.1467-9744.1996.tb00021.x",
+        "published": [
+          [
+            1996,
+            6,
+            2
+          ]
+        ],
+        "journal": [
+          "Zygon: Journal of Religion and Science"
+        ]
+      },
+      {
+        "title": "Possibility of Machine Consciousness",
+        "url": "https://doi.org/10.61877/ijmrp.v2i7.163",
+        "doi": "10.61877/ijmrp.v2i7.163",
+        "published": [
+          [
+            2024,
+            7,
+            6
+          ]
+        ],
+        "journal": [
+          "International Journal for Multidimensional Research Perspectives"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=machine+consciousness&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:22.224842+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 450019,
+    "items": [
+      {
+        "title": "Machine Learning Application for SAIs",
+        "url": "https://doi.org/10.56251/watu4873",
+        "doi": "10.56251/watu4873",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "HYBRID NETWORK INTRUSION DETECTION SYSTEM BASED ON SIGNATURE ANALYSIS AND MACHINE LEARNING METHODS",
+        "url": "https://doi.org/10.70239/arsu.2026.t85.n3.07",
+        "doi": "10.70239/arsu.2026.t85.n3.07",
+        "published": [
+          [
+            2029,
+            9,
+            30
+          ]
+        ],
+        "journal": [
+          "Научный журнал \"Вестник Актюбинского регионального университета имени К. Жубанова\""
+        ]
+      },
+      {
+        "title": "Communication-Efficient Estimation of Regularized Smoothed Support Tensor Machine",
+        "url": "https://doi.org/10.5705/ss.202025.0109",
+        "doi": "10.5705/ss.202025.0109",
+        "published": [
+          [
+            2028
+          ]
+        ],
+        "journal": [
+          "Statistica Sinica"
+        ]
+      },
+      {
+        "title": "EXPLORING THE POTENTIAL OF ECO-FRIENDLY CUTTING FLUIDS IN CNC MACHINING: A MACHINE LEARNING-BASED APPROACH",
+        "url": "https://doi.org/10.1504/ijims.2028.10076530",
+        "doi": "10.1504/ijims.2028.10076530",
+        "published": [
+          [
+            2028
+          ]
+        ],
+        "journal": [
+          "International Journal of Internet Manufacturing and Services"
+        ]
+      },
+      {
+        "title": "Estimation and Inference for Density-convoluted Support Vector Machine with Streaming Data",
+        "url": "https://doi.org/10.5705/ss.202025.0083",
+        "doi": "10.5705/ss.202025.0083",
+        "published": [
+          [
+            2028
+          ]
+        ],
+        "journal": [
+          "Statistica Sinica"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:24.332932+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 557546,
+    "items": [
+      {
+        "title": "Philosophy and Artificial Intelligence",
+        "url": "https://doi.org/10.2307/2214201",
+        "doi": "10.2307/2214201",
+        "published": [
+          [
+            1990
+          ]
+        ],
+        "journal": [
+          "Philosophical Perspectives"
+        ]
+      },
+      {
+        "title": "Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.5840/teachphil19869220",
+        "doi": "10.5840/teachphil19869220",
+        "published": [
+          [
+            1986
+          ]
+        ],
+        "journal": [
+          "Teaching Philosophy"
+        ]
+      },
+      {
+        "title": "Philosophy and artificial intelligence",
+        "url": "https://doi.org/10.1016/0950-7051(94)90029-9",
+        "doi": "10.1016/0950-7051(94)90029-9",
+        "published": [
+          [
+            1994,
+            6
+          ]
+        ],
+        "journal": [
+          "Knowledge-Based Systems"
+        ]
+      },
+      {
+        "title": "Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.26794/2226-7867-2019-9-4-52-56",
+        "doi": "10.26794/2226-7867-2019-9-4-52-56",
+        "published": [
+          [
+            2019,
+            12,
+            4
+          ]
+        ],
+        "journal": [
+          "Humanities and Social Sciences. Bulletin of the Financial University"
+        ]
+      },
+      {
+        "title": "The Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.4216/jpssj.50.0_33",
+        "doi": "10.4216/jpssj.50.0_33",
+        "published": [
+          [
+            2017,
+            12,
+            20
+          ]
+        ],
+        "journal": [
+          "Kagaku tetsugaku"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:26.657240+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 557546,
+    "items": [
+      {
+        "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
+        "url": "https://doi.org/10.32598/jccnc.7.1.350.1",
+        "doi": "10.32598/jccnc.7.1.350.1",
+        "published": [
+          [
+            2121,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Client-Centered Nursing Care"
+        ]
+      },
+      {
+        "title": "We Cannot Cede Control of Weapons to Artificial Intelligence",
+        "url": "https://doi.org/10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "doi": "10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "published": [
+          [
+            2077,
+            7
+          ]
+        ],
+        "journal": [
+          "Scientific American"
+        ]
+      },
+      {
+        "title": "Artistic philosophy of death in short stories by G. Gazdanov",
+        "url": "https://doi.org/10.17223/18137083/55/9",
+        "doi": "10.17223/18137083/55/9",
+        "published": [
+          [
+            2031,
+            1,
+            1
+          ]
+        ],
+        "journal": [
+          "Sibirskiy filologicheskiy zhurnal"
+        ]
+      },
+      {
+        "title": "Evolution and Applications of Artificial Intelligence in SAIs",
+        "url": "https://doi.org/10.56251/yxek7242",
+        "doi": "10.56251/yxek7242",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "Russian ‘special military operation’ as a failed coup de main. An intelligence analysis perspective",
+        "url": "https://doi.org/10.4467/20801335pbw.25.015.22181",
+        "doi": "10.4467/20801335pbw.25.015.22181",
+        "published": [
+          [
+            2028,
+            8,
+            14
+          ]
+        ],
+        "journal": [
+          "Przegląd Bezpieczeństwa Wewnętrznego"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "large language models understanding",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=large+language+models+understanding&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:29.020402+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1865981,
+    "items": [
+      {
+        "title": "Large Language Models (LLMs) for Video Understanding",
+        "url": "https://doi.org/10.1109/tcsvt.2024.3471329",
+        "doi": "10.1109/tcsvt.2024.3471329",
+        "published": [
+          [
+            2024,
+            10
+          ]
+        ],
+        "journal": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ]
+      },
+      {
+        "title": "Large Language Models (LLMs) for Video Understanding",
+        "url": "https://doi.org/10.1109/tcsvt.2024.3483389",
+        "doi": "10.1109/tcsvt.2024.3483389",
+        "published": [
+          [
+            2024,
+            10
+          ]
+        ],
+        "journal": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ]
+      },
+      {
+        "title": "The Importance of Understanding Language in Large Language Models",
+        "url": "https://doi.org/10.1080/15265161.2023.2256614",
+        "doi": "10.1080/15265161.2023.2256614",
+        "published": [
+          [
+            2023,
+            10,
+            3
+          ]
+        ],
+        "journal": [
+          "The American Journal of Bioethics"
+        ]
+      },
+      {
+        "title": "Large Language Models (LLMs) for Video Understanding",
+        "url": "https://doi.org/10.1109/tcsvt.2024.3489299",
+        "doi": "10.1109/tcsvt.2024.3489299",
+        "published": [
+          [
+            2024,
+            11
+          ]
+        ],
+        "journal": [
+          "IEEE Transactions on Circuits and Systems for Video Technology"
+        ]
+      },
+      {
+        "title": "Understanding Social Biases in Large Language Models",
+        "url": "https://doi.org/10.3390/ai6050106",
+        "doi": "10.3390/ai6050106",
+        "published": [
+          [
+            2025,
+            5,
+            20
+          ]
+        ],
+        "journal": [
+          "AI"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "large language models understanding",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=large+language+models+understanding&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:31.689475+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1865981,
+    "items": [
+      {
+        "title": "Comparing the Performance Evaluation Models of Gas Refineries Using AHP and TOPSIS",
+        "url": "https://doi.org/10.32598/jaehr.9.4.1238",
+        "doi": "10.32598/jaehr.9.4.1238",
+        "published": [
+          [
+            2121,
+            10,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Advances in Environmental Health Research"
+        ]
+      },
+      {
+        "title": "Understanding Online News: Uses and Gratifications of Mainstream News Sites and Social Media",
+        "url": "https://doi.org/10.15556/ijsim.02.03.001",
+        "doi": "10.15556/ijsim.02.03.001",
+        "published": [
+          [
+            2115,
+            10,
+            1
+          ]
+        ],
+        "journal": [
+          "International Journal of Strategic Innovative Marketing"
+        ]
+      },
+      {
+        "title": "Growth plate extracellular matrix-derived scaffolds for large bone defect healing",
+        "url": "https://doi.org/10.22203/ecm.v033a10",
+        "doi": "10.22203/ecm.v033a10",
+        "published": [
+          [
+            2107,
+            2,
+            14
+          ]
+        ],
+        "journal": [
+          "European Cells and Materials"
+        ]
+      },
+      {
+        "title": "Comparison of Locus of Control Behaviour Scores in Normal and Individuals with stuttering – A new way to Approach Stuttering Disorder for Speech – Language Pathologists",
+        "url": "https://doi.org/10.21276/ijchmr.2016.2.2.07",
+        "doi": "10.21276/ijchmr.2016.2.2.07",
+        "published": [
+          [
+            2106,
+            6,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal Of Community Health And Medical Research"
+        ]
+      },
+      {
+        "title": "Composite slabs micromechanics characterization of the steel-concrete interaction with finite element models",
+        "url": "https://doi.org/10.23967/j.rimni.2017.7.006",
+        "doi": "10.23967/j.rimni.2017.7.006",
+        "published": [
+          [
+            2075,
+            5,
+            22
+          ]
+        ],
+        "journal": [
+          "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=machine+moral+agency&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:34.076980+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 554091,
+    "items": [
+      {
+        "title": "The moral decision machine: a challenge for artificial moral agency based on moral deference",
+        "url": "https://doi.org/10.1007/s43681-024-00444-3",
+        "doi": "10.1007/s43681-024-00444-3",
+        "published": [
+          [
+            2024,
+            3,
+            4
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "Agent or hammer?: A philosophical inquiry into machine moral agency",
+        "url": "https://doi.org/10.1007/s43681-025-00920-4",
+        "doi": "10.1007/s43681-025-00920-4",
+        "published": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "WHAT MAKES ANY AGENT A MORAL AGENT? REFLECTIONS ON MACHINE CONSCIOUSNESS AND MORAL AGENCY",
+        "url": "https://doi.org/10.1142/s1793843013500017",
+        "doi": "10.1142/s1793843013500017",
+        "published": [
+          [
+            2013,
+            12
+          ]
+        ],
+        "journal": [
+          "International Journal of Machine Consciousness"
+        ]
+      },
+      {
+        "title": "Rethinking Moral Agency",
+        "url": "https://doi.org/10.24252/kah.v14i1a5",
+        "doi": "10.24252/kah.v14i1a5",
+        "published": [
+          [
+            2026,
+            3,
+            29
+          ]
+        ],
+        "journal": [
+          "Khizanah al-Hikmah : Jurnal Ilmu Perpustakaan, Informasi, dan Kearsipan"
+        ]
+      },
+      {
+        "title": "Engaged moral agency",
+        "url": "https://doi.org/10.1016/s1085-6633(99)80010-2",
+        "doi": "10.1016/s1085-6633(99)80010-2",
+        "published": [
+          [
+            1999
+          ]
+        ],
+        "journal": [
+          "Ethics and the Environment"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=machine+moral+agency&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:36.834941+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 554091,
+    "items": [
+      {
+        "title": "Embryo or Person? A Moral and Religious Dilemma",
+        "url": "https://doi.org/10.20431/2349-0381.0303003",
+        "doi": "10.20431/2349-0381.0303003",
+        "published": [
+          [
+            2106
+          ]
+        ],
+        "journal": [
+          "International Journal of Humanities, Social Sciences and Education"
+        ]
+      },
+      {
+        "title": "Female Shrine Priests and Doctrinal Instructors in the Early Meiji Moral Edification Campaign",
+        "url": "https://doi.org/10.1353/mni.2081.0002",
+        "doi": "10.1353/mni.2081.0002",
+        "published": [
+          [
+            2081
+          ]
+        ],
+        "journal": [
+          "Monumenta Nipponica"
+        ]
+      },
+      {
+        "title": "Machine Learning Application for SAIs",
+        "url": "https://doi.org/10.56251/watu4873",
+        "doi": "10.56251/watu4873",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "HYBRID NETWORK INTRUSION DETECTION SYSTEM BASED ON SIGNATURE ANALYSIS AND MACHINE LEARNING METHODS",
+        "url": "https://doi.org/10.70239/arsu.2026.t85.n3.07",
+        "doi": "10.70239/arsu.2026.t85.n3.07",
+        "published": [
+          [
+            2029,
+            9,
+            30
+          ]
+        ],
+        "journal": [
+          "Научный журнал \"Вестник Актюбинского регионального университета имени К. Жубанова\""
+        ]
+      },
+      {
+        "title": "Communication-Efficient Estimation of Regularized Smoothed Support Tensor Machine",
+        "url": "https://doi.org/10.5705/ss.202025.0109",
+        "doi": "10.5705/ss.202025.0109",
+        "published": [
+          [
+            2028
+          ]
+        ],
+        "journal": [
+          "Statistica Sinica"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+epistemology&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:35:39.001883+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 468888,
+    "items": [
+      {
+        "title": "Epistemology and artificial intelligence",
+        "url": "https://doi.org/10.1016/j.jal.2004.07.007",
+        "doi": "10.1016/j.jal.2004.07.007",
+        "published": [
+          [
+            2004,
+            12
+          ]
+        ],
+        "journal": [
+          "Journal of Applied Logic"
+        ]
+      },
+      {
+        "title": "Exact Epistemology and Artificial Intelligence",
+        "url": "https://doi.org/10.3103/s0005105520030073",
+        "doi": "10.3103/s0005105520030073",
+        "published": [
+          [
+            2020,
+            5
+          ]
+        ],
+        "journal": [
+          "Automatic Documentation and Mathematical Linguistics"
+        ]
+      },
+      {
+        "title": "Gendered knowledge — Epistemology and artificial intelligence",
+        "url": "https://doi.org/10.1007/bf01891414",
+        "doi": "10.1007/bf01891414",
+        "published": [
+          [
+            1993,
+            12
+          ]
+        ],
+        "journal": [
+          "AI &amp; Society"
+        ]
+      },
+      {
+        "title": "Future Illiteracies—Architectural Epistemology and Artificial Intelligence",
+        "url": "https://doi.org/10.3390/architecture5030053",
+        "doi": "10.3390/architecture5030053",
+        "published": [
+          [
+            2025,
+            7,
+            25
+          ]
+        ],
+        "journal": [
+          "Architecture"
+        ]
+      },
+      {
+        "title": "Library Operators and the Epistemology of Artificial Intelligence",
+        "url": "https://doi.org/10.37482/2687-1505-v395",
+        "doi": "10.37482/2687-1505-v395",
+        "published": [
+          [
+            2024,
+            12,
+            25
+          ]
+        ],
+        "journal": [
+          "Vestnik of Northern (Arctic) Federal University. Series Humanitarian and Social Sciences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+epistemology&rows=5&offset=0&filter=type%3Ajournal-article&sort=published&order=desc",
+    "checked_at": "2026-10-06T12:35:41.475455+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 468888,
+    "items": [
+      {
+        "title": "The Role of Attachment Styles and Spiritual Intelligence in Predicting Women’s Emotional Divorce",
+        "url": "https://doi.org/10.32598/jccnc.7.1.350.1",
+        "doi": "10.32598/jccnc.7.1.350.1",
+        "published": [
+          [
+            2121,
+            2,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal of Client-Centered Nursing Care"
+        ]
+      },
+      {
+        "title": "We Cannot Cede Control of Weapons to Artificial Intelligence",
+        "url": "https://doi.org/10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "doi": "10.1038/scientificamerican072077-axs4kzsdvehyqhomb7gkv",
+        "published": [
+          [
+            2077,
+            7
+          ]
+        ],
+        "journal": [
+          "Scientific American"
+        ]
+      },
+      {
+        "title": "Evolution and Applications of Artificial Intelligence in SAIs",
+        "url": "https://doi.org/10.56251/yxek7242",
+        "doi": "10.56251/yxek7242",
+        "published": [
+          [
+            2030,
+            10,
+            20
+          ]
+        ],
+        "journal": [
+          "International Journal of Government Auditing"
+        ]
+      },
+      {
+        "title": "Russian ‘special military operation’ as a failed coup de main. An intelligence analysis perspective",
+        "url": "https://doi.org/10.4467/20801335pbw.25.015.22181",
+        "doi": "10.4467/20801335pbw.25.015.22181",
+        "published": [
+          [
+            2028,
+            8,
+            14
+          ]
+        ],
+        "journal": [
+          "Przegląd Bezpieczeństwa Wewnętrznego"
+        ]
+      },
+      {
+        "title": "Different optimal controllers for cable driven continuum robot based on artificial circulation system algorithms",
+        "url": "https://doi.org/10.1504/ijaac.2028.10079258",
+        "doi": "10.1504/ijaac.2028.10079258",
+        "published": [
+          [
+            2028
+          ]
+        ],
+        "journal": [
+          "International Journal of Automation and Control"
+        ]
+      }
+    ]
+  }
+]

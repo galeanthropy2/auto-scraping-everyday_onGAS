@@ -1,0 +1,35 @@
+[
+  {
+    "id": "dream",
+    "name": "夢の研究",
+    "sheetName": "papers",
+    "queries": {
+      "cinii": ["夢", "悪夢", "dream", "dreaming", "lucid dream", "nightmare"],
+      "crossref": ["lucid dreaming", "nightmare sleep"]
+    }
+  },
+  {
+    "id": "experimental_philosophy",
+    "name": "実験哲学",
+    "sheetName": "papers_experimental_philosophy",
+    "queries": {
+      "cinii": ["実験哲学", "experimental philosophy"],
+      "crossref": ["experimental philosophy"]
+    },
+    "includeTitleGroups": [["実験哲学", "experimental philosophy"]]
+  },
+  {
+    "id": "ai_philosophy",
+    "name": "AI×哲学",
+    "sheetName": "papers_ai_philosophy",
+    "queries": {
+      "cinii": ["人工知能 哲学", "人工知能 倫理", "AI 意識"],
+      "arxiv": ["(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)"],
+      "crossref": ["artificial intelligence philosophy", "artificial intelligence ethics"]
+    },
+    "includeTitleGroups": [
+      ["人工知能", "大規模言語モデル", "artificial intelligence", "large language model", "AI"],
+      ["哲学", "倫理", "意識", "philosoph", "ethic", "conscious"]
+    ]
+  }
+]

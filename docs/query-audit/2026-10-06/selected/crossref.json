@@ -1,0 +1,2276 @@
+[
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=dream+consciousness&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:36:55.223779+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 61578,
+    "items": [
+      {
+        "title": "Dream and consciousness",
+        "url": "https://doi.org/10.1111/j.1479-8425.2004.00127.x",
+        "doi": "10.1111/j.1479-8425.2004.00127.x",
+        "published": [
+          [
+            2004,
+            5
+          ]
+        ],
+        "journal": [
+          "Sleep and Biological Rhythms"
+        ]
+      },
+      {
+        "title": "Utopian Dream and Dark Consciousness",
+        "url": "https://doi.org/10.1215/25783491-7480357",
+        "doi": "10.1215/25783491-7480357",
+        "published": [
+          [
+            2019,
+            3,
+            1
+          ]
+        ],
+        "journal": [
+          "Prism"
+        ]
+      },
+      {
+        "title": "Psychohistorical Origin of Dream Consciousness",
+        "url": "https://doi.org/10.70763/816a6db41f0e44644bc65808b6db5ca4",
+        "doi": "10.70763/816a6db41f0e44644bc65808b6db5ca4",
+        "published": [
+          [
+            1994
+          ]
+        ],
+        "journal": [
+          "Clio's Psyche"
+        ]
+      },
+      {
+        "title": "Dream Consciousness in Problem Solving",
+        "url": "https://doi.org/10.2190/du8h-bbym-l31g-60c0",
+        "doi": "10.2190/du8h-bbym-l31g-60c0",
+        "published": [
+          [
+            1991,
+            6
+          ]
+        ],
+        "journal": [
+          "Imagination, Cognition and Personality"
+        ]
+      },
+      {
+        "title": "Studies of the Dream Consciousness. II",
+        "url": "https://doi.org/10.2307/1412430",
+        "doi": "10.2307/1412430",
+        "published": [
+          [
+            1900,
+            10
+          ]
+        ],
+        "journal": [
+          "The American Journal of Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=dream+consciousness&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:36:58.291332+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 4371,
+    "items": [
+      {
+        "title": "“The flash of awakened consciousness”: dream images in Freud and Benjamin",
+        "url": "https://doi.org/10.1080/00207578.2025.2525581",
+        "doi": "10.1080/00207578.2025.2525581",
+        "published": [
+          [
+            2026,
+            7,
+            4
+          ]
+        ],
+        "journal": [
+          "The International Journal of Psychoanalysis"
+        ]
+      },
+      {
+        "title": "Bridging dream and wake states: a new tool for consciousness research",
+        "url": "https://doi.org/10.1093/nc/niag038",
+        "doi": "10.1093/nc/niag038",
+        "published": [
+          [
+            2026
+          ]
+        ],
+        "journal": [
+          "Neuroscience of Consciousness"
+        ]
+      },
+      {
+        "title": "David Peña-Guzman, When Animals Dream: The Hidden World of Animal Consciousness",
+        "url": "https://doi.org/10.5840/enviroethics20264814",
+        "doi": "10.5840/enviroethics20264814",
+        "published": [
+          [
+            2026
+          ]
+        ],
+        "journal": [
+          "Environmental Ethics"
+        ]
+      },
+      {
+        "title": "Coded Resonance Theory (CRT): A Unified Mechanical Framework For Consciousness, Self, Dream And Telepathy",
+        "url": "https://doi.org/10.9790/0837-3101046885",
+        "doi": "10.9790/0837-3101046885",
+        "published": [
+          [
+            2026,
+            1
+          ]
+        ],
+        "journal": [
+          "IOSR Journal of Humanities and Social Science"
+        ]
+      },
+      {
+        "title": "From Atomic Structure to the Dream World: Exploring the Unknown Dimensions of Life and Consciousness",
+        "url": "https://doi.org/10.62306/fasttdwe",
+        "doi": "10.62306/fasttdwe",
+        "published": [
+          [
+            2025,
+            10,
+            19
+          ]
+        ],
+        "journal": [
+          "Digital Science"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=dream+phenomenology&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:00.583231+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 36215,
+    "items": [
+      {
+        "title": "Toward a Phenomenology of Dream Imagery and Metaphor",
+        "url": "https://doi.org/10.2307/3192330",
+        "doi": "10.2307/3192330",
+        "published": [
+          [
+            1979,
+            11
+          ]
+        ],
+        "journal": [
+          "Art Education"
+        ]
+      },
+      {
+        "title": "The phenomenology of dream–reality confusion: A quantitative study.",
+        "url": "https://doi.org/10.1037/drm0000078",
+        "doi": "10.1037/drm0000078",
+        "published": [
+          [
+            2018,
+            9
+          ]
+        ],
+        "journal": [
+          "Dreaming"
+        ]
+      },
+      {
+        "title": "Neurophysiological features of dream recall and the phenomenology of dreams: Auditory stimulation impacts dream experiences",
+        "url": "https://doi.org/10.1016/j.concog.2025.103869",
+        "doi": "10.1016/j.concog.2025.103869",
+        "published": [
+          [
+            2025,
+            7
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      },
+      {
+        "title": "Kilka zadań fenomenologii snu",
+        "url": "https://doi.org/10.31261/fp.21381",
+        "doi": "10.31261/fp.21381",
+        "published": [
+          [
+            2011,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Folia Philosophica"
+        ]
+      },
+      {
+        "title": "A Deep-Dream Virtual Reality Platform for Studying Altered Perceptual Phenomenology",
+        "url": "https://doi.org/10.1038/s41598-017-16316-2",
+        "doi": "10.1038/s41598-017-16316-2",
+        "published": [
+          [
+            2017,
+            11,
+            22
+          ]
+        ],
+        "journal": [
+          "Scientific Reports"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=dream+phenomenology&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:03.898971+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1879,
+    "items": [
+      {
+        "title": "Do neutrinos dream in 5D? Towards a comprehensive extra-dimensional neutrino phenomenology",
+        "url": "https://doi.org/10.1007/jhep05(2026)152",
+        "doi": "10.1007/jhep05(2026)152",
+        "published": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "journal": [
+          "Journal of High Energy Physics"
+        ]
+      },
+      {
+        "title": "Dream Machine",
+        "url": "https://doi.org/10.21240/mpaed/68/2026.01.23.x",
+        "doi": "10.21240/mpaed/68/2026.01.23.x",
+        "published": [
+          [
+            2026,
+            1,
+            23
+          ]
+        ],
+        "journal": [
+          "MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung"
+        ]
+      },
+      {
+        "title": "Materialist Phenomenology",
+        "url": "https://doi.org/10.5325/jspecphil.40.3.0183",
+        "doi": "10.5325/jspecphil.40.3.0183",
+        "published": [
+          [
+            2026,
+            7
+          ]
+        ],
+        "journal": [
+          "The Journal of Speculative Philosophy"
+        ]
+      },
+      {
+        "title": "Qur’anic Phenomenology",
+        "url": "https://doi.org/10.26443/arc.v52i1.2080",
+        "doi": "10.26443/arc.v52i1.2080",
+        "published": [
+          [
+            2025,
+            10,
+            24
+          ]
+        ],
+        "journal": [
+          "Arc: The Journal of the School of Religious Studies"
+        ]
+      },
+      {
+        "title": "Longitudinal dream-content shift and void-like dissociative phenomenology around outpatient ketamine infusions in chronic low back pain: a case report",
+        "url": "https://doi.org/10.1186/s13256-026-06175-9",
+        "doi": "10.1186/s13256-026-06175-9",
+        "published": [
+          [
+            2026,
+            7,
+            13
+          ]
+        ],
+        "journal": [
+          "Journal of Medical Case Reports"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=dream+skepticism&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:06.116762+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 24874,
+    "items": [
+      {
+        "title": "Performatives and dream skepticism",
+        "url": "https://doi.org/10.1007/bf00375718",
+        "doi": "10.1007/bf00375718",
+        "published": [
+          [
+            1974,
+            5
+          ]
+        ],
+        "journal": [
+          "Philosophical Studies"
+        ]
+      },
+      {
+        "title": "Sharing a Dream of Skepticism",
+        "url": "https://doi.org/10.5840/harvardreview2013199",
+        "doi": "10.5840/harvardreview2013199",
+        "published": [
+          [
+            2013
+          ]
+        ],
+        "journal": [
+          "The Harvard Review of Philosophy"
+        ]
+      },
+      {
+        "title": "Descartes and Dream Skepticism Revisited",
+        "url": "https://doi.org/10.1353/hph.1992.0050",
+        "doi": "10.1353/hph.1992.0050",
+        "published": [
+          [
+            1992,
+            7
+          ]
+        ],
+        "journal": [
+          "Journal of the History of Philosophy"
+        ]
+      },
+      {
+        "title": "Dream Skepticism and the Conditionality Problem",
+        "url": "https://doi.org/10.1007/s10670-010-9268-5",
+        "doi": "10.1007/s10670-010-9268-5",
+        "published": [
+          [
+            2011,
+            1,
+            21
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      },
+      {
+        "title": "A Transcendental Approach to Dream Skepticism",
+        "url": "https://doi.org/10.30827/trif.32695",
+        "doi": "10.30827/trif.32695",
+        "published": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "Teorema. Revista Internacional de Filosofía"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=dream+skepticism&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:08.355804+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1387,
+    "items": [
+      {
+        "title": "Dreams and Paintings: Descartes, Dream Skepticism, and the Constitution of Mental States",
+        "url": "https://doi.org/10.1111/phpr.70143",
+        "doi": "10.1111/phpr.70143",
+        "published": [
+          [
+            2026,
+            7,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophy and Phenomenological Research"
+        ]
+      },
+      {
+        "title": "Moorean Skepticism",
+        "url": "https://doi.org/10.1080/09672559.2025.2603195",
+        "doi": "10.1080/09672559.2025.2603195",
+        "published": [
+          [
+            2025,
+            12,
+            29
+          ]
+        ],
+        "journal": [
+          "International Journal of Philosophical Studies"
+        ]
+      },
+      {
+        "title": "Meeting Bukowski (Reluctantly, with Skepticism)",
+        "url": "https://doi.org/10.46608/leaves.v21i.845",
+        "doi": "10.46608/leaves.v21i.845",
+        "published": [
+          [
+            2026,
+            1,
+            21
+          ]
+        ],
+        "journal": [
+          "Leaves"
+        ]
+      },
+      {
+        "title": "Against meta-skepticism",
+        "url": "https://doi.org/10.1007/s11098-026-02573-3",
+        "doi": "10.1007/s11098-026-02573-3",
+        "published": [
+          [
+            2026,
+            7,
+            14
+          ]
+        ],
+        "journal": [
+          "Philosophical Studies"
+        ]
+      },
+      {
+        "title": "Skepticism and Mathematics",
+        "url": "https://doi.org/10.1007/s10670-025-01046-z",
+        "doi": "10.1007/s10670-025-01046-z",
+        "published": [
+          [
+            2025,
+            12,
+            5
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=lucid+dreaming+philosophy&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:11.702338+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 103614,
+    "items": [
+      {
+        "title": "Lucid Dreaming",
+        "url": "https://doi.org/10.1353/abr.2012.0184",
+        "doi": "10.1353/abr.2012.0184",
+        "published": [
+          [
+            2012,
+            11
+          ]
+        ],
+        "journal": [
+          "American Book Review"
+        ]
+      },
+      {
+        "title": "Lucid Dreaming",
+        "url": "https://doi.org/10.33671/iss05dix",
+        "doi": "10.33671/iss05dix",
+        "published": [
+          [
+            2016
+          ]
+        ],
+        "journal": [
+          "ISSUE"
+        ]
+      },
+      {
+        "title": "Lucid Dreaming",
+        "url": "https://doi.org/10.5840/ancientphil202343221",
+        "doi": "10.5840/ancientphil202343221",
+        "published": [
+          [
+            2023
+          ]
+        ],
+        "journal": [
+          "Ancient Philosophy"
+        ]
+      },
+      {
+        "title": "Getting lucid about lucid dreaming",
+        "url": "https://doi.org/10.1093/pq/pqae138",
+        "doi": "10.1093/pq/pqae138",
+        "published": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ],
+        "journal": [
+          "The Philosophical Quarterly"
+        ]
+      },
+      {
+        "title": "On Lucid Dreaming",
+        "url": "https://doi.org/10.1353/psg.2015.0021",
+        "doi": "10.1353/psg.2015.0021",
+        "published": [
+          [
+            2015,
+            6
+          ]
+        ],
+        "journal": [
+          "Prairie Schooner"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=lucid+dreaming+philosophy&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:14.895161+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 5018,
+    "items": [
+      {
+        "title": "Lucid dreaming and sleep characteristics in posttraumatic stress disorder.",
+        "url": "https://doi.org/10.1037/drm0000331",
+        "doi": "10.1037/drm0000331",
+        "published": [
+          [
+            2026,
+            6
+          ]
+        ],
+        "journal": [
+          "Dreaming"
+        ]
+      },
+      {
+        "title": "Inducing Lucid Dreaming Based on a Contemplative Practice of Compassion",
+        "url": "https://doi.org/10.3390/brainsci16030315",
+        "doi": "10.3390/brainsci16030315",
+        "published": [
+          [
+            2026,
+            3,
+            16
+          ]
+        ],
+        "journal": [
+          "Brain Sciences"
+        ]
+      },
+      {
+        "title": "Relational hypnotherapy, lucid dreaming, and sleep paralysis: A case study",
+        "url": "https://doi.org/10.1080/00029157.2026.2661649",
+        "doi": "10.1080/00029157.2026.2661649",
+        "published": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ],
+        "journal": [
+          "American Journal of Clinical Hypnosis"
+        ]
+      },
+      {
+        "title": "Virtual reality as a metacognitive training tool for lucid dreaming",
+        "url": "https://doi.org/10.3389/fpsyg.2026.1924370",
+        "doi": "10.3389/fpsyg.2026.1924370",
+        "published": [
+          [
+            2026,
+            9,
+            28
+          ]
+        ],
+        "journal": [
+          "Frontiers in Psychology"
+        ]
+      },
+      {
+        "title": "Exploring the link between synesthesia and lucid dreaming through perceptual presence",
+        "url": "https://doi.org/10.3389/fpsyg.2026.1733841",
+        "doi": "10.3389/fpsyg.2026.1733841",
+        "published": [
+          [
+            2026,
+            2,
+            26
+          ]
+        ],
+        "journal": [
+          "Frontiers in Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:18.800371+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 824462,
+    "items": [
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1093/analys/anp104",
+        "doi": "10.1093/analys/anp104",
+        "published": [
+          [
+            2009,
+            7,
+            6
+          ]
+        ],
+        "journal": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1146/annurev-psych-120710-100350",
+        "doi": "10.1146/annurev-psych-120710-100350",
+        "published": [
+          [
+            2012,
+            1,
+            10
+          ]
+        ],
+        "journal": [
+          "Annual Review of Psychology"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.5840/pjphil2009319",
+        "doi": "10.5840/pjphil2009319",
+        "published": [
+          [
+            2009
+          ]
+        ],
+        "journal": [
+          "Polish Journal of Philosophy"
+        ]
+      },
+      {
+        "title": "Experimental Philosophy",
+        "url": "https://doi.org/10.1111/j.1747-9991.2006.00050.x",
+        "doi": "10.1111/j.1747-9991.2006.00050.x",
+        "published": [
+          [
+            2006,
+            11,
+            27
+          ]
+        ],
+        "journal": [
+          "Philosophy Compass"
+        ]
+      },
+      {
+        "title": "Experimental philosophy",
+        "url": "https://doi.org/10.5840/tpm20105063",
+        "doi": "10.5840/tpm20105063",
+        "published": [
+          [
+            2010
+          ]
+        ],
+        "journal": [
+          "The Philosophers' Magazine"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=experimental+philosophy&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:22.302671+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 55034,
+    "items": [
+      {
+        "title": "<i>Robert Hooke’s Experimental Philosophy</i>",
+        "url": "https://doi.org/10.1086/739982",
+        "doi": "10.1086/739982",
+        "published": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ],
+        "journal": [
+          "Renaissance Quarterly"
+        ]
+      },
+      {
+        "title": "A Methodological Plea: Sampling in Experimental Philosophy",
+        "url": "https://doi.org/10.1111/theo.70113",
+        "doi": "10.1111/theo.70113",
+        "published": [
+          [
+            2026,
+            8,
+            24
+          ]
+        ],
+        "journal": [
+          "Theoria"
+        ]
+      },
+      {
+        "title": "Robert Hooke’s Experimental Philosophy, by Felicity Henderson",
+        "url": "https://doi.org/10.1163/18253911-bja10207",
+        "doi": "10.1163/18253911-bja10207",
+        "published": [
+          [
+            2026,
+            5,
+            5
+          ]
+        ],
+        "journal": [
+          "Nuncius"
+        ]
+      },
+      {
+        "title": "Fiction, Identity, and Existence: A Study in Experimental Philosophy",
+        "url": "https://doi.org/10.1007/s12136-026-00674-6",
+        "doi": "10.1007/s12136-026-00674-6",
+        "published": [
+          [
+            2026,
+            2,
+            11
+          ]
+        ],
+        "journal": [
+          "Acta Analytica"
+        ]
+      },
+      {
+        "title": "CONTEMPORARY METHODS OF TEACHING PHILOSOPHY IN NON-CORE AREAS OF STUDY: SIX THINKING HATS, MIND MAPS, EXPERIMENTAL PHILOSOPHY",
+        "url": "https://doi.org/10.31862/2218-8711-2026-2-117-133",
+        "doi": "10.31862/2218-8711-2026-2-117-133",
+        "published": [
+          [
+            2026
+          ]
+        ],
+        "journal": [
+          "Problems of Modern Education (Problemy Sovremennogo Obrazovaniya)"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=folk+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:26.050285+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 24962,
+    "items": [
+      {
+        "title": "Law, Coercion and Folk Intuitions",
+        "url": "https://doi.org/10.1093/ojls/gqac014",
+        "doi": "10.1093/ojls/gqac014",
+        "published": [
+          [
+            2022,
+            10,
+            10
+          ]
+        ],
+        "journal": [
+          "Oxford Journal of Legal Studies"
+        ]
+      },
+      {
+        "title": "Trope analysis and folk intuitions",
+        "url": "https://doi.org/10.1007/s11229-020-03013-3",
+        "doi": "10.1007/s11229-020-03013-3",
+        "published": [
+          [
+            2021,
+            1,
+            11
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Folk Intuitions on Free Will",
+        "url": "https://doi.org/10.1163/156853706776931385",
+        "doi": "10.1163/156853706776931385",
+        "published": [
+          [
+            2006
+          ]
+        ],
+        "journal": [
+          "Journal of Cognition and Culture"
+        ]
+      },
+      {
+        "title": "Motivational internalism and folk intuitions",
+        "url": "https://doi.org/10.1080/09515089.2014.894431",
+        "doi": "10.1080/09515089.2014.894431",
+        "published": [
+          [
+            2014,
+            4,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophical Psychology"
+        ]
+      },
+      {
+        "title": "Reflection, reflex, and folk intuitions",
+        "url": "https://doi.org/10.1016/j.concog.2011.02.018",
+        "doi": "10.1016/j.concog.2011.02.018",
+        "published": [
+          [
+            2012,
+            6
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=folk+intuitions&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:30.789681+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1496,
+    "items": [
+      {
+        "title": "Locating value in moral progress: Valence asymmetries in folk intuitions",
+        "url": "https://doi.org/10.1093/analys/anag030",
+        "doi": "10.1093/analys/anag030",
+        "published": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "journal": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Conflicting Intuitions",
+        "url": "https://doi.org/10.3998/ergo.9262",
+        "doi": "10.3998/ergo.9262",
+        "published": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ],
+        "journal": [
+          "Ergo an Open Access Journal of Philosophy"
+        ]
+      },
+      {
+        "title": "Phenomenally Skilful Intuitions",
+        "url": "https://doi.org/10.1007/s10670-026-01128-6",
+        "doi": "10.1007/s10670-026-01128-6",
+        "published": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      },
+      {
+        "title": "Consciousness intuitions are illusory",
+        "url": "https://doi.org/10.1016/j.concog.2026.104078",
+        "doi": "10.1016/j.concog.2026.104078",
+        "published": [
+          [
+            2026,
+            8
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      },
+      {
+        "title": "Reappraising intuitions about consciousness",
+        "url": "https://doi.org/10.3389/fpsyg.2026.1747924",
+        "doi": "10.3389/fpsyg.2026.1747924",
+        "published": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ],
+        "journal": [
+          "Frontiers in Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=epistemic+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:35.696201+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 15908,
+    "items": [
+      {
+        "title": "Epistemic Intuitions",
+        "url": "https://doi.org/10.1111/j.1747-9991.2007.00104.x",
+        "doi": "10.1111/j.1747-9991.2007.00104.x",
+        "published": [
+          [
+            2007,
+            11
+          ]
+        ],
+        "journal": [
+          "Philosophy Compass"
+        ]
+      },
+      {
+        "title": "Epistemic Intuitions and Epistemic Contextualism",
+        "url": "https://doi.org/10.1111/j.1933-1592.2006.tb00565.x",
+        "doi": "10.1111/j.1933-1592.2006.tb00565.x",
+        "published": [
+          [
+            2006,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophy and Phenomenological Research"
+        ]
+      },
+      {
+        "title": "Normativity and Epistemic Intuitions",
+        "url": "https://doi.org/10.5840/philtopics2001291/217",
+        "doi": "10.5840/philtopics2001291/217",
+        "published": [
+          [
+            2001
+          ]
+        ],
+        "journal": [
+          "Philosophical Topics"
+        ]
+      },
+      {
+        "title": "Lay intuitions about epistemic normativity",
+        "url": "https://doi.org/10.1007/s11229-017-1371-6",
+        "doi": "10.1007/s11229-017-1371-6",
+        "published": [
+          [
+            2017,
+            3,
+            29
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Religious Disagreement and Epistemic Intuitions",
+        "url": "https://doi.org/10.1017/s1358246117000224",
+        "doi": "10.1017/s1358246117000224",
+        "published": [
+          [
+            2017,
+            10
+          ]
+        ],
+        "journal": [
+          "Royal Institute of Philosophy Supplement"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=epistemic+intuitions&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:41.225311+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 2690,
+    "items": [
+      {
+        "title": "Conflicting Intuitions",
+        "url": "https://doi.org/10.3998/ergo.9262",
+        "doi": "10.3998/ergo.9262",
+        "published": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ],
+        "journal": [
+          "Ergo an Open Access Journal of Philosophy"
+        ]
+      },
+      {
+        "title": "Phenomenally Skilful Intuitions",
+        "url": "https://doi.org/10.1007/s10670-026-01128-6",
+        "doi": "10.1007/s10670-026-01128-6",
+        "published": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      },
+      {
+        "title": "Consciousness intuitions are illusory",
+        "url": "https://doi.org/10.1016/j.concog.2026.104078",
+        "doi": "10.1016/j.concog.2026.104078",
+        "published": [
+          [
+            2026,
+            8
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      },
+      {
+        "title": "Reappraising intuitions about consciousness",
+        "url": "https://doi.org/10.3389/fpsyg.2026.1747924",
+        "doi": "10.3389/fpsyg.2026.1747924",
+        "published": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ],
+        "journal": [
+          "Frontiers in Psychology"
+        ]
+      },
+      {
+        "title": "When intuitions diverge from usage",
+        "url": "https://doi.org/10.1075/lv.26001.kov",
+        "doi": "10.1075/lv.26001.kov",
+        "published": [
+          [
+            2026,
+            5,
+            18
+          ]
+        ],
+        "journal": [
+          "Linguistic Variation"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=Knobe+effect&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:37:55.333642+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 2756723,
+    "items": [
+      {
+        "title": "A simple linguistic approach to the Knobe effect, or the Knobe effect without any vignette",
+        "url": "https://doi.org/10.1007/s11098-017-0926-1",
+        "doi": "10.1007/s11098-017-0926-1",
+        "published": [
+          [
+            2017,
+            5,
+            26
+          ]
+        ],
+        "journal": [
+          "Philosophical Studies"
+        ]
+      },
+      {
+        "title": "It’s the Knobe Effect, Stupid!",
+        "url": "https://doi.org/10.1007/s13164-014-0189-0",
+        "doi": "10.1007/s13164-014-0189-0",
+        "published": [
+          [
+            2014,
+            6,
+            18
+          ]
+        ],
+        "journal": [
+          "Review of Philosophy and Psychology"
+        ]
+      },
+      {
+        "title": "Norms and the Knobe effect",
+        "url": "https://doi.org/10.1093/analys/anq037",
+        "doi": "10.1093/analys/anq037",
+        "published": [
+          [
+            2010,
+            5,
+            27
+          ]
+        ],
+        "journal": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "HOW TO CANCEL THE KNOBE EFFECT",
+        "url": "https://doi.org/10.2307/48614004",
+        "doi": "10.2307/48614004",
+        "published": [
+          [
+            2021,
+            4,
+            1
+          ]
+        ],
+        "journal": [
+          "American Philosophical Quarterly"
+        ]
+      },
+      {
+        "title": "Can Substitution Inferences Explain the Knobe Effect?",
+        "url": "https://doi.org/10.1007/s13164-011-0061-4",
+        "doi": "10.1007/s13164-011-0061-4",
+        "published": [
+          [
+            2011,
+            6,
+            2
+          ]
+        ],
+        "journal": [
+          "Review of Philosophy and Psychology"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=Knobe+effect&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:37:59.300506+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 124625,
+    "items": [
+      {
+        "title": "Assessing the Knobe Effect in Autistic and Non-Autistic Individuals",
+        "url": "https://doi.org/10.1007/s13164-025-00792-x",
+        "doi": "10.1007/s13164-025-00792-x",
+        "published": [
+          [
+            2025,
+            12,
+            4
+          ]
+        ],
+        "journal": [
+          "Review of Philosophy and Psychology"
+        ]
+      },
+      {
+        "title": "Quantifying the Knobe effect: population-level patterns and heterogeneity analyses",
+        "url": "https://doi.org/10.1080/09515089.2026.2676274",
+        "doi": "10.1080/09515089.2026.2676274",
+        "published": [
+          [
+            2026,
+            6,
+            3
+          ]
+        ],
+        "journal": [
+          "Philosophical Psychology"
+        ]
+      },
+      {
+        "title": "Ripple Effect",
+        "url": "https://doi.org/10.37522/nm4bhq89",
+        "doi": "10.37522/nm4bhq89",
+        "published": [
+          [
+            2025,
+            12,
+            11
+          ]
+        ],
+        "journal": [
+          "Landing"
+        ]
+      },
+      {
+        "title": "Compton Effect",
+        "url": "https://doi.org/10.1007/s12045-026-1991-6",
+        "doi": "10.1007/s12045-026-1991-6",
+        "published": [
+          [
+            2026,
+            7,
+            25
+          ]
+        ],
+        "journal": [
+          "Resonance"
+        ]
+      },
+      {
+        "title": "Effect of target detection on the testing effect",
+        "url": "https://doi.org/10.1016/j.actpsy.2025.105856",
+        "doi": "10.1016/j.actpsy.2025.105856",
+        "published": [
+          [
+            2025,
+            11
+          ]
+        ],
+        "journal": [
+          "Acta Psychologica"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=Gettier+intuitions&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:38:07.519002+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1368,
+    "items": [
+      {
+        "title": "Concept Revision, Concept Application and the Role of Intuitions in Gettier Cases",
+        "url": "https://doi.org/10.1017/epi.2022.49",
+        "doi": "10.1017/epi.2022.49",
+        "published": [
+          [
+            2022,
+            12,
+            27
+          ]
+        ],
+        "journal": [
+          "Episteme"
+        ]
+      },
+      {
+        "title": "The Gettier-illusion: Gettier-partialism and infallibilism",
+        "url": "https://doi.org/10.1007/s11229-011-9924-6",
+        "doi": "10.1007/s11229-011-9924-6",
+        "published": [
+          [
+            2011,
+            3,
+            25
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Gettier Knowledge",
+        "url": "https://doi.org/10.5840/teachphil19847244",
+        "doi": "10.5840/teachphil19847244",
+        "published": [
+          [
+            1984
+          ]
+        ],
+        "journal": [
+          "Teaching Philosophy"
+        ]
+      },
+      {
+        "title": "Depressurizing Gettier",
+        "url": "https://doi.org/10.1007/s11229-025-04990-z",
+        "doi": "10.1007/s11229-025-04990-z",
+        "published": [
+          [
+            2025,
+            3,
+            28
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Grueing Gettier",
+        "url": "https://doi.org/10.5840/logos-episteme20145434",
+        "doi": "10.5840/logos-episteme20145434",
+        "published": [
+          [
+            2014
+          ]
+        ],
+        "journal": [
+          "Logos &amp; Episteme"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=Gettier+intuitions&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:38:10.875033+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 69,
+    "items": [
+      {
+        "title": "Knowledge-how and Gettier-cases",
+        "url": "https://doi.org/10.1080/0020174x.2026.2735950",
+        "doi": "10.1080/0020174x.2026.2735950",
+        "published": [
+          [
+            2026,
+            9,
+            26
+          ]
+        ],
+        "journal": [
+          "Inquiry"
+        ]
+      },
+      {
+        "title": "Conflicting Intuitions",
+        "url": "https://doi.org/10.3998/ergo.9262",
+        "doi": "10.3998/ergo.9262",
+        "published": [
+          [
+            2026,
+            3,
+            2
+          ]
+        ],
+        "journal": [
+          "Ergo an Open Access Journal of Philosophy"
+        ]
+      },
+      {
+        "title": "Phenomenally Skilful Intuitions",
+        "url": "https://doi.org/10.1007/s10670-026-01128-6",
+        "doi": "10.1007/s10670-026-01128-6",
+        "published": [
+          [
+            2026,
+            7,
+            2
+          ]
+        ],
+        "journal": [
+          "Erkenntnis"
+        ]
+      },
+      {
+        "title": "A Thomistic Approach to the Gettier Problem",
+        "url": "https://doi.org/10.15173/jhap.v15i7.6660",
+        "doi": "10.15173/jhap.v15i7.6660",
+        "published": [
+          [
+            2026,
+            5,
+            1
+          ]
+        ],
+        "journal": [
+          "Journal for the History of Analytical Philosophy"
+        ]
+      },
+      {
+        "title": "Consciousness intuitions are illusory",
+        "url": "https://doi.org/10.1016/j.concog.2026.104078",
+        "doi": "10.1016/j.concog.2026.104078",
+        "published": [
+          [
+            2026,
+            8
+          ]
+        ],
+        "journal": [
+          "Consciousness and Cognition"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:38:13.947152+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 557546,
+    "items": [
+      {
+        "title": "Philosophy and Artificial Intelligence",
+        "url": "https://doi.org/10.2307/2214201",
+        "doi": "10.2307/2214201",
+        "published": [
+          [
+            1990
+          ]
+        ],
+        "journal": [
+          "Philosophical Perspectives"
+        ]
+      },
+      {
+        "title": "Philosophy and artificial intelligence",
+        "url": "https://doi.org/10.1016/0950-7051(94)90029-9",
+        "doi": "10.1016/0950-7051(94)90029-9",
+        "published": [
+          [
+            1994,
+            6
+          ]
+        ],
+        "journal": [
+          "Knowledge-Based Systems"
+        ]
+      },
+      {
+        "title": "Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.5840/teachphil19869220",
+        "doi": "10.5840/teachphil19869220",
+        "published": [
+          [
+            1986
+          ]
+        ],
+        "journal": [
+          "Teaching Philosophy"
+        ]
+      },
+      {
+        "title": "Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.26794/2226-7867-2019-9-4-52-56",
+        "doi": "10.26794/2226-7867-2019-9-4-52-56",
+        "published": [
+          [
+            2019,
+            12,
+            4
+          ]
+        ],
+        "journal": [
+          "Humanities and Social Sciences. Bulletin of the Financial University"
+        ]
+      },
+      {
+        "title": "The Philosophy of Artificial Intelligence",
+        "url": "https://doi.org/10.4216/jpssj.50.0_33",
+        "doi": "10.4216/jpssj.50.0_33",
+        "published": [
+          [
+            2017,
+            12,
+            20
+          ]
+        ],
+        "journal": [
+          "Kagaku tetsugaku"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+philosophy&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:38:17.180213+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 91054,
+    "items": [
+      {
+        "title": "Teaching Philosophy in the Age of Artificial Intelligence",
+        "url": "https://doi.org/10.46787/ijaipil.v3i1.7546",
+        "doi": "10.46787/ijaipil.v3i1.7546",
+        "published": [
+          [
+            2026,
+            6,
+            10
+          ]
+        ],
+        "journal": [
+          "International Journal of AI in Pedagogy, Innovation, and Learning Futures"
+        ]
+      },
+      {
+        "title": "Perspectives in philosophy of Artificial Intelligence, robotics and cognition",
+        "url": "https://doi.org/10.54103/1757-0522/30078",
+        "doi": "10.54103/1757-0522/30078",
+        "published": [
+          [
+            2025,
+            12,
+            19
+          ]
+        ],
+        "journal": [
+          "The Reasoner"
+        ]
+      },
+      {
+        "title": "Generative Artificial Intelligence as a Challenge for Philosophy Teachers",
+        "url": "https://doi.org/10.21146/0042-8744-2026-4-26-35",
+        "doi": "10.21146/0042-8744-2026-4-26-35",
+        "published": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "journal": [
+          "Voprosy Filosofii"
+        ]
+      },
+      {
+        "title": "Artificial Intelligence and the Philosophy of Labour: Challenges and Prospects",
+        "url": "https://doi.org/10.31489/2025hph4/302-308",
+        "doi": "10.31489/2025hph4/302-308",
+        "published": [
+          [
+            2025,
+            12,
+            30
+          ]
+        ],
+        "journal": [
+          "Bulletin of the Karaganda university History.Philosophy series"
+        ]
+      },
+      {
+        "title": "The Philosophy of Global Artificial Intelligence Governance: A Deceptive Illusion?",
+        "url": "https://doi.org/10.63002/assm.404.1608",
+        "doi": "10.63002/assm.404.1608",
+        "published": [
+          [
+            2026,
+            7,
+            24
+          ]
+        ],
+        "journal": [
+          "Advances in Social Sciences and Management"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=machine+consciousness&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:38:20.559934+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 450019,
+    "items": [
+      {
+        "title": "Machine consciousness",
+        "url": "https://doi.org/10.4249/scholarpedia.4162",
+        "doi": "10.4249/scholarpedia.4162",
+        "published": [
+          [
+            2008
+          ]
+        ],
+        "journal": [
+          "Scholarpedia"
+        ]
+      },
+      {
+        "title": "On “Machine Consciousness”",
+        "url": "https://doi.org/10.1142/s2705078522500187",
+        "doi": "10.1142/s2705078522500187",
+        "published": [
+          [
+            2023,
+            3
+          ]
+        ],
+        "journal": [
+          "Journal of Artificial Intelligence and Consciousness"
+        ]
+      },
+      {
+        "title": "Machine consciousness, ambisonics",
+        "url": "https://doi.org/10.1108/03684920910944786",
+        "doi": "10.1108/03684920910944786",
+        "published": [
+          [
+            2009,
+            4,
+            10
+          ]
+        ],
+        "journal": [
+          "Kybernetes"
+        ]
+      },
+      {
+        "title": "CONSCIOUSNESS AND THE MACHINE",
+        "url": "https://doi.org/10.1111/j.1467-9744.1996.tb00021.x",
+        "doi": "10.1111/j.1467-9744.1996.tb00021.x",
+        "published": [
+          [
+            1996,
+            6,
+            2
+          ]
+        ],
+        "journal": [
+          "Zygon: Journal of Religion and Science"
+        ]
+      },
+      {
+        "title": "Possibility of Machine Consciousness",
+        "url": "https://doi.org/10.61877/ijmrp.v2i7.163",
+        "doi": "10.61877/ijmrp.v2i7.163",
+        "published": [
+          [
+            2024,
+            7,
+            6
+          ]
+        ],
+        "journal": [
+          "International Journal for Multidimensional Research Perspectives"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=machine+consciousness&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:38:23.143369+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 77266,
+    "items": [
+      {
+        "title": "A neomythist attitude toward machine consciousness",
+        "url": "https://doi.org/10.1007/s00146-026-03329-7",
+        "doi": "10.1007/s00146-026-03329-7",
+        "published": [
+          [
+            2026,
+            8,
+            22
+          ]
+        ],
+        "journal": [
+          "AI &amp; SOCIETY"
+        ]
+      },
+      {
+        "title": "Towards New Approaches in Machine Consciousness Research",
+        "url": "https://doi.org/10.5840/eps202663344",
+        "doi": "10.5840/eps202663344",
+        "published": [
+          [
+            2026
+          ]
+        ],
+        "journal": [
+          "Epistemology &amp; Philosophy of Science"
+        ]
+      },
+      {
+        "title": "Humachina: A Meditation on Human and Machine Consciousness",
+        "url": "https://doi.org/10.1080/03621537.2026.2595400",
+        "doi": "10.1080/03621537.2026.2595400",
+        "published": [
+          [
+            2026,
+            1,
+            2
+          ]
+        ],
+        "journal": [
+          "Transactional Analysis Journal"
+        ]
+      },
+      {
+        "title": "Consciousness, creativity, and understanding are not obstacles to machine intelligence",
+        "url": "https://doi.org/10.1007/s11229-026-05655-1",
+        "doi": "10.1007/s11229-026-05655-1",
+        "published": [
+          [
+            2026,
+            6,
+            19
+          ]
+        ],
+        "journal": [
+          "Synthese"
+        ]
+      },
+      {
+        "title": "Machine Consciousness and Pasychoanalytic Subjectivity in Klara and The Sun",
+        "url": "https://doi.org/10.33545/26648717.2026.v8.i3a.675",
+        "doi": "10.33545/26648717.2026.v8.i3a.675",
+        "published": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "journal": [
+          "International Journal of Research in English"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=machine+moral+agency&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:38:25.786437+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 554091,
+    "items": [
+      {
+        "title": "The moral decision machine: a challenge for artificial moral agency based on moral deference",
+        "url": "https://doi.org/10.1007/s43681-024-00444-3",
+        "doi": "10.1007/s43681-024-00444-3",
+        "published": [
+          [
+            2024,
+            3,
+            4
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "Agent or hammer?: A philosophical inquiry into machine moral agency",
+        "url": "https://doi.org/10.1007/s43681-025-00920-4",
+        "doi": "10.1007/s43681-025-00920-4",
+        "published": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "WHAT MAKES ANY AGENT A MORAL AGENT? REFLECTIONS ON MACHINE CONSCIOUSNESS AND MORAL AGENCY",
+        "url": "https://doi.org/10.1142/s1793843013500017",
+        "doi": "10.1142/s1793843013500017",
+        "published": [
+          [
+            2013,
+            12
+          ]
+        ],
+        "journal": [
+          "International Journal of Machine Consciousness"
+        ]
+      },
+      {
+        "title": "Engaged moral agency",
+        "url": "https://doi.org/10.1016/s1085-6633(99)80010-2",
+        "doi": "10.1016/s1085-6633(99)80010-2",
+        "published": [
+          [
+            1999
+          ]
+        ],
+        "journal": [
+          "Ethics and the Environment"
+        ]
+      },
+      {
+        "title": "Rethinking Moral Agency",
+        "url": "https://doi.org/10.24252/kah.v14i1a5",
+        "doi": "10.24252/kah.v14i1a5",
+        "published": [
+          [
+            2026,
+            3,
+            29
+          ]
+        ],
+        "journal": [
+          "Khizanah al-Hikmah : Jurnal Ilmu Perpustakaan, Informasi, dan Kearsipan"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=machine+moral+agency&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:38:28.528518+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 87537,
+    "items": [
+      {
+        "title": "Agent or hammer?: A philosophical inquiry into machine moral agency",
+        "url": "https://doi.org/10.1007/s43681-025-00920-4",
+        "doi": "10.1007/s43681-025-00920-4",
+        "published": [
+          [
+            2025,
+            12,
+            31
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "Rethinking Moral Agency",
+        "url": "https://doi.org/10.24252/kah.v14i1a5",
+        "doi": "10.24252/kah.v14i1a5",
+        "published": [
+          [
+            2026,
+            3,
+            29
+          ]
+        ],
+        "journal": [
+          "Khizanah al-Hikmah : Jurnal Ilmu Perpustakaan, Informasi, dan Kearsipan"
+        ]
+      },
+      {
+        "title": "Between Man and Machine: Unveiling the Incomplete Moral Agency of Virtual Digital Humans",
+        "url": "https://doi.org/10.1007/s11245-025-10309-x",
+        "doi": "10.1007/s11245-025-10309-x",
+        "published": [
+          [
+            2025,
+            11,
+            6
+          ]
+        ],
+        "journal": [
+          "Topoi"
+        ]
+      },
+      {
+        "title": "Trends and challenges in machine ethics: an updated survey of artificial moral agency implementations",
+        "url": "https://doi.org/10.1007/s43681-025-00971-7",
+        "doi": "10.1007/s43681-025-00971-7",
+        "published": [
+          [
+            2026,
+            2
+          ]
+        ],
+        "journal": [
+          "AI and Ethics"
+        ]
+      },
+      {
+        "title": "Confucius, Ritual, and Shared Moral Agency",
+        "url": "https://doi.org/10.1111/phc3.70110",
+        "doi": "10.1111/phc3.70110",
+        "published": [
+          [
+            2026,
+            5
+          ]
+        ],
+        "journal": [
+          "Philosophy Compass"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "selected",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+epistemology&rows=5&offset=0&filter=type%3Ajournal-article",
+    "checked_at": "2026-10-06T12:38:31.197523+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 468888,
+    "items": [
+      {
+        "title": "Epistemology and artificial intelligence",
+        "url": "https://doi.org/10.1016/j.jal.2004.07.007",
+        "doi": "10.1016/j.jal.2004.07.007",
+        "published": [
+          [
+            2004,
+            12
+          ]
+        ],
+        "journal": [
+          "Journal of Applied Logic"
+        ]
+      },
+      {
+        "title": "Exact Epistemology and Artificial Intelligence",
+        "url": "https://doi.org/10.3103/s0005105520030073",
+        "doi": "10.3103/s0005105520030073",
+        "published": [
+          [
+            2020,
+            5
+          ]
+        ],
+        "journal": [
+          "Automatic Documentation and Mathematical Linguistics"
+        ]
+      },
+      {
+        "title": "Gendered knowledge — Epistemology and artificial intelligence",
+        "url": "https://doi.org/10.1007/bf01891414",
+        "doi": "10.1007/bf01891414",
+        "published": [
+          [
+            1993,
+            12
+          ]
+        ],
+        "journal": [
+          "AI &amp; Society"
+        ]
+      },
+      {
+        "title": "Future Illiteracies—Architectural Epistemology and Artificial Intelligence",
+        "url": "https://doi.org/10.3390/architecture5030053",
+        "doi": "10.3390/architecture5030053",
+        "published": [
+          [
+            2025,
+            7,
+            25
+          ]
+        ],
+        "journal": [
+          "Architecture"
+        ]
+      },
+      {
+        "title": "Library Operators and the Epistemology of Artificial Intelligence",
+        "url": "https://doi.org/10.37482/2687-1505-v395",
+        "doi": "10.37482/2687-1505-v395",
+        "published": [
+          [
+            2024,
+            12,
+            25
+          ]
+        ],
+        "journal": [
+          "Vestnik of Northern (Arctic) Federal University. Series Humanitarian and Social Sciences"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "url": "https://api.crossref.org/works?query.title=artificial+intelligence+epistemology&rows=5&offset=0&filter=type%3Ajournal-article%2Cfrom-pub-date%3A2025-10-06%2Cuntil-pub-date%3A2026-10-06",
+    "checked_at": "2026-10-06T12:38:33.695311+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 87286,
+    "items": [
+      {
+        "title": "Epistemology of Education in the Era of Artificial Intelligence",
+        "url": "https://doi.org/10.56916/jirpe.v5i2.3066",
+        "doi": "10.56916/jirpe.v5i2.3066",
+        "published": [
+          [
+            2026,
+            4,
+            6
+          ]
+        ],
+        "journal": [
+          "Journal of Innovation and Research in Primary Education"
+        ]
+      },
+      {
+        "title": "Galperian epistemology, human thought, and artificial intelligence in education",
+        "url": "https://doi.org/10.11591/ijere.v15i4.39338",
+        "doi": "10.11591/ijere.v15i4.39338",
+        "published": [
+          [
+            2026,
+            8,
+            1
+          ]
+        ],
+        "journal": [
+          "International Journal of Evaluation and Research in Education (IJERE)"
+        ]
+      },
+      {
+        "title": "Digital Chrono-epistemology, or Artificial Intelligence from Instrument to Institution",
+        "url": "https://doi.org/10.3366/dlgs.2025.0618",
+        "doi": "10.3366/dlgs.2025.0618",
+        "published": [
+          [
+            2025,
+            11
+          ]
+        ],
+        "journal": [
+          "Deleuze and Guattari Studies"
+        ]
+      },
+      {
+        "title": "Inteligencia artificial: ¿epistemología extractiva y reduccionismo ontológico?",
+        "url": "https://doi.org/10.53439/stdfyt57.29.2026.139-171",
+        "doi": "10.53439/stdfyt57.29.2026.139-171",
+        "published": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ],
+        "journal": [
+          "Studium. Filosofía y Teología"
+        ]
+      },
+      {
+        "title": "Digital Knowledge Systems and Islamic Epistemology:  Artificial Intelligence Adoption in Pesantren Education",
+        "url": "https://doi.org/10.62097/falasifa.v17i01.2902",
+        "doi": "10.62097/falasifa.v17i01.2902",
+        "published": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ],
+        "journal": [
+          "FALASIFA : Jurnal Studi Keislaman"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "gas-paper-harvester",
+  "private": true,
+  "scripts": { "test": "node --test test/*.test.js", "check": "node --check auto_scraping_everyday.js" },
+  "devDependencies": { "@xmldom/xmldom": "^0.8.11" }
+}
