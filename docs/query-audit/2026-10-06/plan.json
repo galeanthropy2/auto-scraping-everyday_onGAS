@@ -1,0 +1,331 @@
+[
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "nightmare sleep",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "nightmare sleep",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence ethics",
+    "order": "asc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence ethics",
+    "order": "desc",
+    "phase": "baseline"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream sleep",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream sleep",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream recall",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream recall",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream neurocognitive",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream neurocognitive",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "moral judgment experiment",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "moral judgment experiment",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophical intuitions",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophical intuitions",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "large language models understanding",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "large language models understanding",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\" OR ti:LLM OR ti:LLMs OR ti:\"machine consciousness\" OR ti:\"artificial consciousness\") AND (ti:philosophy OR ti:philosophical OR ti:ethics OR ti:ethical OR ti:consciousness OR ti:sentience OR ti:understanding OR ti:agency OR ti:epistemology)",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine consciousness\" OR ti:\"artificial consciousness\" OR ti:\"machine sentience\"",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"large language model\" OR ti:LLM OR ti:LLMs) AND (ti:understanding OR ti:meaning OR ti:consciousness OR ti:agency)",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine ethics\" OR ti:\"artificial moral\" OR ti:\"moral agency\"",
+    "order": "desc",
+    "phase": "candidate"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:AI OR ti:\"artificial intelligence\" OR ti:\"language model\") AND (ti:philosophical OR ti:epistemology OR ti:epistemic OR ti:intentionality)",
+    "order": "desc",
+    "phase": "candidate"
+  }
+]

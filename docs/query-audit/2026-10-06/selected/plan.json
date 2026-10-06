@@ -1,0 +1,231 @@
+[
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine consciousness\" OR ti:\"artificial consciousness\" OR ti:\"machine sentience\"",
+    "order": "desc",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine ethics\" OR ti:\"artificial moral\" OR ti:\"moral agency\"",
+    "order": "desc",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:AI OR ti:\"artificial intelligence\" OR ti:\"language model\" OR ti:LLM OR ti:LLMs) AND (ti:philosophy OR ti:philosophical OR ti:epistemology OR ti:intentionality OR ti:personhood OR ti:\"moral status\" OR ti:\"Chinese room\")",
+    "order": "desc",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "selected"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "selected-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06"
+  }
+]

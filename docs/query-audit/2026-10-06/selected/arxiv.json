@@ -1,0 +1,119 @@
+[
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine consciousness\" OR ti:\"artificial consciousness\" OR ti:\"machine sentience\"",
+    "order": "desc",
+    "phase": "selected",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22machine+consciousness%22+OR+ti%3A%22artificial+consciousness%22+OR+ti%3A%22machine+sentience%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:36:55.230909+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 29,
+    "items": [
+      {
+        "title": "What Can Analogy Tell Us About Artificial Consciousness?",
+        "url": "http://arxiv.org/abs/2610.01002v1",
+        "published": "2026-10-01T03:45:43Z"
+      },
+      {
+        "title": "Calibration and transfer in indicator-based assessments of artificial consciousness",
+        "url": "http://arxiv.org/abs/2603.27597v2",
+        "published": "2026-03-29T09:39:27Z"
+      },
+      {
+        "title": "Testing the Machine Consciousness Hypothesis",
+        "url": "http://arxiv.org/abs/2512.01081v1",
+        "published": "2025-11-30T21:05:48Z"
+      },
+      {
+        "title": "Humanoid Artificial Consciousness Designed with Large Language Model Based on Psychoanalysis and Personality Theory",
+        "url": "http://arxiv.org/abs/2510.09043v2",
+        "published": "2025-10-10T06:23:50Z"
+      },
+      {
+        "title": "Artificial Consciousness as Interface Representation",
+        "url": "http://arxiv.org/abs/2508.04383v1",
+        "published": "2025-08-06T12:25:06Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine ethics\" OR ti:\"artificial moral\" OR ti:\"moral agency\"",
+    "order": "desc",
+    "phase": "selected",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22machine+ethics%22+OR+ti%3A%22artificial+moral%22+OR+ti%3A%22moral+agency%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:36:59.092324+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 27,
+    "items": [
+      {
+        "title": "How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions",
+        "url": "http://arxiv.org/abs/2609.05037v1",
+        "published": "2026-09-04T11:56:59Z"
+      },
+      {
+        "title": "Staying with the Uncertainty: Uncertainty-Scaffolding Strategies for Artificial Moral Advisors in LLM-to-LLM Simulated Conversations",
+        "url": "http://arxiv.org/abs/2606.05890v1",
+        "published": "2026-06-04T08:59:10Z"
+      },
+      {
+        "title": "Contesting Artificial Moral Agents",
+        "url": "http://arxiv.org/abs/2603.00066v1",
+        "published": "2026-02-10T16:38:45Z"
+      },
+      {
+        "title": "Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants",
+        "url": "http://arxiv.org/abs/2508.12754v1",
+        "published": "2025-08-18T09:28:55Z"
+      },
+      {
+        "title": "A Moral Agency Framework for Legitimate Integration of AI in Bureaucracies",
+        "url": "http://arxiv.org/abs/2508.08231v3",
+        "published": "2025-08-11T17:49:19Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:AI OR ti:\"artificial intelligence\" OR ti:\"language model\" OR ti:LLM OR ti:LLMs) AND (ti:philosophy OR ti:philosophical OR ti:epistemology OR ti:intentionality OR ti:personhood OR ti:\"moral status\" OR ti:\"Chinese room\")",
+    "order": "desc",
+    "phase": "selected",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3AAI+OR+ti%3A%22artificial+intelligence%22+OR+ti%3A%22language+model%22+OR+ti%3ALLM+OR+ti%3ALLMs%29+AND+%28ti%3Aphilosophy+OR+ti%3Aphilosophical+OR+ti%3Aepistemology+OR+ti%3Aintentionality+OR+ti%3Apersonhood+OR+ti%3A%22moral+status%22+OR+ti%3A%22Chinese+room%22%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:37:02.515583+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 94,
+    "items": [
+      {
+        "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+        "url": "http://arxiv.org/abs/2610.03948v1",
+        "published": "2026-10-02T19:07:28Z"
+      },
+      {
+        "title": "From Knowledge to Legitimacy: A Philosophical Problem Discovery of AI Implementation Readiness in Public Health Disease Surveillance",
+        "url": "http://arxiv.org/abs/2609.39513v1",
+        "published": "2026-09-30T11:15:38Z"
+      },
+      {
+        "title": "Anticipatory Human Oversight of Agentic AI: A Philosophical Account",
+        "url": "http://arxiv.org/abs/2609.24242v1",
+        "published": "2026-09-21T08:07:11Z"
+      },
+      {
+        "title": "New Conditions for Philosophers to Catch the Wave of Citizen Deliberation in the Age of Artificial Intelligence in advance",
+        "url": "http://arxiv.org/abs/2609.15707v1",
+        "published": "2026-09-14T15:11:02Z"
+      },
+      {
+        "title": "Alternative AI Philosophy: Daoism as Method for AI in Education",
+        "url": "http://arxiv.org/abs/2609.10842v2",
+        "published": "2026-09-09T21:22:01Z"
+      }
+    ]
+  }
+]

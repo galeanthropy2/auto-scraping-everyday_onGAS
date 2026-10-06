@@ -15,7 +15,7 @@ CiNiiは旧 `ci.nii.ac.jp/opensearch/search` から `cir.nii.ac.jp/opensearch/ar
 
 arXivは0始まりのページ番号とAtomを使い、検索式・投稿日順のソートを指定します。HTTPが成功していてもエラーを表すentryなら失敗扱いにします。[arXiv公式マニュアル](https://info.arxiv.org/help/api/user-manual.html)
 
-Crossrefは登録なしで利用できる公開APIです。タイトル検索と出版日ソートを使い、深い全件収集はこの版では行いません。大量データ向けのcursor走査への拡張は別途設計が必要です。運用規模を増やす場合、サービスへの連絡先として専用アドレスを渡すpolite poolも検討してください。通知先アドレスをAPIへ自動転送する実装にはしていません。[アクセス・認証](https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/)、[REST API仕様](https://github.com/CrossRef/rest-api-doc)、[ページングの説明](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api)
+Crossrefは登録なしで利用できる公開APIです。書誌検索（`query.bibliographic`）と関連度ソートを使います。非推奨の `query.title` は使用しません。週次は直近365日の出版日範囲、過去分は関連度上位20ページを既定の範囲とし、深い全件収集はこの版では行いません。大量データ向けのcursor走査への拡張は別途設計が必要です。運用規模を増やす場合、サービスへの連絡先として専用アドレスを渡すpolite poolも検討してください。通知先アドレスをAPIへ自動転送する実装にはしていません。[アクセス・認証](https://www.crossref.org/documentation/retrieve-metadata/rest-api/access-and-authentication/)、[REST API仕様](https://github.com/CrossRef/rest-api-doc)、[ページングの説明](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api)
 
 OpenAlexは認証・予算体系の更新があるため、古い「必ずキー必須」「無制限に無料」といった前提は使わず、導入時に現行仕様を確認します。[現行の認証ページ](https://help.openalex.org/api/authentication/)
 

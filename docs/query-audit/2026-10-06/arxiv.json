@@ -1,0 +1,275 @@
+[
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)",
+    "order": "asc",
+    "phase": "baseline",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22artificial+intelligence%22+OR+ti%3A%22large+language+model%22%29+AND+%28ti%3Aphilosophy+OR+ti%3Aethics+OR+ti%3Aconsciousness%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=ascending",
+    "checked_at": "2026-10-06T12:33:57.019871+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 171,
+    "items": [
+      {
+        "title": "Ethical Artificial Intelligence",
+        "url": "http://arxiv.org/abs/1411.1373v9",
+        "published": "2014-11-05T19:40:02Z"
+      },
+      {
+        "title": "Societal, Economic, Ethical and Legal Challenges of the Digital Revolution: From Big Data to Deep Learning, Artificial Intelligence, and Manipulative Technologies",
+        "url": "http://arxiv.org/abs/1504.03751v1",
+        "published": "2015-04-15T00:31:39Z"
+      },
+      {
+        "title": "Ascribing Consciousness to Artificial Intelligence",
+        "url": "http://arxiv.org/abs/1504.05696v2",
+        "published": "2015-04-22T08:50:16Z"
+      },
+      {
+        "title": "Philosophy in the Face of Artificial Intelligence",
+        "url": "http://arxiv.org/abs/1605.06048v1",
+        "published": "2016-05-19T16:45:12Z"
+      },
+      {
+        "title": "Ethical Considerations in Artificial Intelligence Courses",
+        "url": "http://arxiv.org/abs/1701.07769v1",
+        "published": "2017-01-26T16:52:22Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)",
+    "order": "desc",
+    "phase": "baseline",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22artificial+intelligence%22+OR+ti%3A%22large+language+model%22%29+AND+%28ti%3Aphilosophy+OR+ti%3Aethics+OR+ti%3Aconsciousness%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:01.010420+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 171,
+    "items": [
+      {
+        "title": "The Ethics of Artificial Intelligence in Military Operations",
+        "url": "http://arxiv.org/abs/2609.26507v1",
+        "published": "2026-09-22T14:38:29Z"
+      },
+      {
+        "title": "Artificial Intelligence Literacy and Sustainable Development: An Ethical Governance and Development Goals Framework",
+        "url": "http://arxiv.org/abs/2609.10489v1",
+        "published": "2026-09-09T17:28:08Z"
+      },
+      {
+        "title": "The ethics of artificial intelligence in the life sciences: Universality, cultural diversity and an architecture of care",
+        "url": "http://arxiv.org/abs/2608.05436v1",
+        "published": "2026-08-05T22:11:03Z"
+      },
+      {
+        "title": "Narration-of-Thought: Inference-Time Scaffolding for Defeasible Ethical Reasoning in Large Language Models",
+        "url": "http://arxiv.org/abs/2606.26366v2",
+        "published": "2026-06-24T20:23:16Z"
+      },
+      {
+        "title": "InvestPhilBench: A Multi-Layer Benchmark for Evaluating Large Language Model Procedural Reasoning in Expert Investment Philosophy",
+        "url": "http://arxiv.org/abs/2606.25984v2",
+        "published": "2026-06-24T15:53:20Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"artificial intelligence\" OR ti:\"large language model\" OR ti:LLM OR ti:LLMs OR ti:\"machine consciousness\" OR ti:\"artificial consciousness\") AND (ti:philosophy OR ti:philosophical OR ti:ethics OR ti:ethical OR ti:consciousness OR ti:sentience OR ti:understanding OR ti:agency OR ti:epistemology)",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22artificial+intelligence%22+OR+ti%3A%22large+language+model%22+OR+ti%3ALLM+OR+ti%3ALLMs+OR+ti%3A%22machine+consciousness%22+OR+ti%3A%22artificial+consciousness%22%29+AND+%28ti%3Aphilosophy+OR+ti%3Aphilosophical+OR+ti%3Aethics+OR+ti%3Aethical+OR+ti%3Aconsciousness+OR+ti%3Asentience+OR+ti%3Aunderstanding+OR+ti%3Aagency+OR+ti%3Aepistemology%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:05.014312+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1582,
+    "items": [
+      {
+        "title": "An Evaluation of the Semantic Understanding Capabilities of Large Language Models for Web Attack Payloads",
+        "url": "http://arxiv.org/abs/2610.06507v1",
+        "published": "2026-10-05T15:25:41Z"
+      },
+      {
+        "title": "Understanding the Weight Averaging Mechanism in LLM Training for Post-Training Quantization",
+        "url": "http://arxiv.org/abs/2610.05329v1",
+        "published": "2026-10-04T15:53:28Z"
+      },
+      {
+        "title": "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
+        "url": "http://arxiv.org/abs/2610.04977v1",
+        "published": "2026-10-04T05:45:41Z"
+      },
+      {
+        "title": "Understanding Errors in LLM-Based Question Answering over Imperfect Tables",
+        "url": "http://arxiv.org/abs/2610.04687v1",
+        "published": "2026-10-03T18:03:41Z"
+      },
+      {
+        "title": "Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents",
+        "url": "http://arxiv.org/abs/2610.04409v1",
+        "published": "2026-10-03T09:57:35Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine consciousness\" OR ti:\"artificial consciousness\" OR ti:\"machine sentience\"",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22machine+consciousness%22+OR+ti%3A%22artificial+consciousness%22+OR+ti%3A%22machine+sentience%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:08.871045+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 29,
+    "items": [
+      {
+        "title": "What Can Analogy Tell Us About Artificial Consciousness?",
+        "url": "http://arxiv.org/abs/2610.01002v1",
+        "published": "2026-10-01T03:45:43Z"
+      },
+      {
+        "title": "Calibration and transfer in indicator-based assessments of artificial consciousness",
+        "url": "http://arxiv.org/abs/2603.27597v2",
+        "published": "2026-03-29T09:39:27Z"
+      },
+      {
+        "title": "Testing the Machine Consciousness Hypothesis",
+        "url": "http://arxiv.org/abs/2512.01081v1",
+        "published": "2025-11-30T21:05:48Z"
+      },
+      {
+        "title": "Humanoid Artificial Consciousness Designed with Large Language Model Based on Psychoanalysis and Personality Theory",
+        "url": "http://arxiv.org/abs/2510.09043v2",
+        "published": "2025-10-10T06:23:50Z"
+      },
+      {
+        "title": "Artificial Consciousness as Interface Representation",
+        "url": "http://arxiv.org/abs/2508.04383v1",
+        "published": "2025-08-06T12:25:06Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:\"large language model\" OR ti:LLM OR ti:LLMs) AND (ti:understanding OR ti:meaning OR ti:consciousness OR ti:agency)",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22large+language+model%22+OR+ti%3ALLM+OR+ti%3ALLMs%29+AND+%28ti%3Aunderstanding+OR+ti%3Ameaning+OR+ti%3Aconsciousness+OR+ti%3Aagency%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:12.519764+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 1319,
+    "items": [
+      {
+        "title": "An Evaluation of the Semantic Understanding Capabilities of Large Language Models for Web Attack Payloads",
+        "url": "http://arxiv.org/abs/2610.06507v1",
+        "published": "2026-10-05T15:25:41Z"
+      },
+      {
+        "title": "Understanding the Weight Averaging Mechanism in LLM Training for Post-Training Quantization",
+        "url": "http://arxiv.org/abs/2610.05329v1",
+        "published": "2026-10-04T15:53:28Z"
+      },
+      {
+        "title": "Do LLMs Understand Sequential Structure? A Controlled Study of Inference and Generation",
+        "url": "http://arxiv.org/abs/2610.04977v1",
+        "published": "2026-10-04T05:45:41Z"
+      },
+      {
+        "title": "Understanding Errors in LLM-Based Question Answering over Imperfect Tables",
+        "url": "http://arxiv.org/abs/2610.04687v1",
+        "published": "2026-10-03T18:03:41Z"
+      },
+      {
+        "title": "Understanding and Mitigating Hallucination Escape in Tool-Using LLM Agents",
+        "url": "http://arxiv.org/abs/2610.04409v1",
+        "published": "2026-10-03T09:57:35Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "ti:\"machine ethics\" OR ti:\"artificial moral\" OR ti:\"moral agency\"",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://export.arxiv.org/api/query?search_query=ti%3A%22machine+ethics%22+OR+ti%3A%22artificial+moral%22+OR+ti%3A%22moral+agency%22&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:16.205484+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 27,
+    "items": [
+      {
+        "title": "How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions",
+        "url": "http://arxiv.org/abs/2609.05037v1",
+        "published": "2026-09-04T11:56:59Z"
+      },
+      {
+        "title": "Staying with the Uncertainty: Uncertainty-Scaffolding Strategies for Artificial Moral Advisors in LLM-to-LLM Simulated Conversations",
+        "url": "http://arxiv.org/abs/2606.05890v1",
+        "published": "2026-06-04T08:59:10Z"
+      },
+      {
+        "title": "Contesting Artificial Moral Agents",
+        "url": "http://arxiv.org/abs/2603.00066v1",
+        "published": "2026-02-10T16:38:45Z"
+      },
+      {
+        "title": "Beyond Ethical Alignment: Evaluating LLMs as Artificial Moral Assistants",
+        "url": "http://arxiv.org/abs/2508.12754v1",
+        "published": "2025-08-18T09:28:55Z"
+      },
+      {
+        "title": "A Moral Agency Framework for Legitimate Integration of AI in Bureaucracies",
+        "url": "http://arxiv.org/abs/2508.08231v3",
+        "published": "2025-08-11T17:49:19Z"
+      }
+    ]
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "arxiv",
+    "query": "(ti:AI OR ti:\"artificial intelligence\" OR ti:\"language model\") AND (ti:philosophical OR ti:epistemology OR ti:epistemic OR ti:intentionality)",
+    "order": "desc",
+    "phase": "candidate",
+    "url": "https://export.arxiv.org/api/query?search_query=%28ti%3AAI+OR+ti%3A%22artificial+intelligence%22+OR+ti%3A%22language+model%22%29+AND+%28ti%3Aphilosophical+OR+ti%3Aepistemology+OR+ti%3Aepistemic+OR+ti%3Aintentionality%29&start=0&max_results=5&sortBy=submittedDate&sortOrder=descending",
+    "checked_at": "2026-10-06T12:34:19.871045+00:00",
+    "sample_size": 5,
+    "http_status": 200,
+    "total": 173,
+    "items": [
+      {
+        "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+        "url": "http://arxiv.org/abs/2610.03948v1",
+        "published": "2026-10-02T19:07:28Z"
+      },
+      {
+        "title": "Same Performance, Different Process: Epistemic Ownership in AI-Mediated Education",
+        "url": "http://arxiv.org/abs/2610.02731v1",
+        "published": "2026-10-02T03:06:10Z"
+      },
+      {
+        "title": "From Knowledge to Legitimacy: A Philosophical Problem Discovery of AI Implementation Readiness in Public Health Disease Surveillance",
+        "url": "http://arxiv.org/abs/2609.39513v1",
+        "published": "2026-09-30T11:15:38Z"
+      },
+      {
+        "title": "Who Acts, Who Knows, Who Answers? A Corpus-Assisted Discourse Analysis of Agency, Epistemic Responsibility, and Accountability in Generative AI Higher Education Research",
+        "url": "http://arxiv.org/abs/2609.27184v1",
+        "published": "2026-09-23T00:43:34Z"
+      },
+      {
+        "title": "Epi-Logic: A Conceptual Framework for Epistemic Runtime Control, Schema Validity Checking, and Controlled Accommodation in Autonomous AI Agents",
+        "url": "http://arxiv.org/abs/2609.24755v1",
+        "published": "2026-09-21T15:24:49Z"
+      }
+    ]
+  }
+]

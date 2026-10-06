@@ -1,35 +1,278 @@
 [
   {
     "id": "dream",
-    "name": "夢の研究",
+    "name": "夢の哲学",
     "sheetName": "papers",
+    "keywordMatch": "token",
     "queries": {
-      "cinii": ["夢", "悪夢", "dream", "dreaming", "lucid dream", "nightmare"],
-      "crossref": ["lucid dreaming", "nightmare sleep"]
-    }
+      "cinii": [
+        "夢 哲学",
+        "夢 意識",
+        "夢 現象学",
+        "夢 懐疑",
+        "夢 うつつ",
+        "夢 ベルクソン",
+        "dream consciousness",
+        "dream phenomenology",
+        "dream skepticism"
+      ],
+      "crossref": [
+        "dream skepticism",
+        "dream phenomenology",
+        "dream consciousness"
+      ]
+    },
+    "includeTitleGroups": [
+      [
+        "夢",
+        "dream*",
+        "nightmare*"
+      ],
+      [
+        "哲学",
+        "意識",
+        "現象学",
+        "懐疑",
+        "認識",
+        "知覚",
+        "実在",
+        "うつつ",
+        "ベルクソン",
+        "デカルト",
+        "philosoph*",
+        "conscious*",
+        "phenomenolog*",
+        "skeptic*",
+        "sceptic*",
+        "epistem*",
+        "perception",
+        "reality",
+        "self awareness",
+        "subjectiv*",
+        "Heidegger",
+        "Dennett",
+        "Descartes",
+        "Bergson",
+        "ハイデガー",
+        "デネット"
+      ]
+    ],
+    "excludeTitleKeywords": [
+      "書評",
+      "book review",
+      "corrigendum",
+      "erratum",
+      "retraction",
+      "治療",
+      "症例",
+      "睡眠障害",
+      "clinical trial",
+      "case report",
+      "treatment",
+      "therapy",
+      "therapeutic",
+      "PTSD",
+      "deep dream",
+      "deepdream",
+      "dream boost",
+      "dream optimization",
+      "dream training",
+      "utopian",
+      "cartoon",
+      "neutrino*",
+      "posttraumatic stress",
+      "hypnotherap*",
+      "case study",
+      "ketamine",
+      "映画"
+    ]
   },
   {
     "id": "experimental_philosophy",
     "name": "実験哲学",
     "sheetName": "papers_experimental_philosophy",
+    "keywordMatch": "token",
     "queries": {
-      "cinii": ["実験哲学", "experimental philosophy"],
-      "crossref": ["experimental philosophy"]
+      "cinii": [
+        "実験哲学",
+        "experimental philosophy",
+        "道徳的責任 直観",
+        "自由意志 直観"
+      ],
+      "crossref": [
+        "experimental philosophy",
+        "folk intuitions",
+        "epistemic intuitions",
+        "Knobe effect"
+      ]
     },
-    "includeTitleGroups": [["実験哲学", "experimental philosophy"]]
+    "excludeTitleKeywords": [
+      "書評",
+      "book review",
+      "corrigendum",
+      "erratum",
+      "retraction"
+    ],
+    "includeTitleAnyGroups": [
+      [
+        "実験哲学"
+      ],
+      [
+        "experimental philosophy"
+      ],
+      [
+        "x phi"
+      ],
+      [
+        "xphi"
+      ],
+      [
+        "folk",
+        "intuition*"
+      ],
+      [
+        "epistemic",
+        "intuition*"
+      ],
+      [
+        "philosophical",
+        "intuition*"
+      ],
+      [
+        "Knobe effect"
+      ],
+      [
+        "side effect effect"
+      ],
+      [
+        "Gettier",
+        "intuition*"
+      ],
+      [
+        "Gettier",
+        "experiment*"
+      ],
+      [
+        "ノーブ効果"
+      ],
+      [
+        "ゲティア",
+        "直観"
+      ],
+      [
+        "道徳的責任",
+        "直観"
+      ],
+      [
+        "自由意志",
+        "直観"
+      ],
+      [
+        "moral intuition*",
+        "compatibil*"
+      ],
+      [
+        "Knobe",
+        "responsib*"
+      ]
+    ],
+    "ciniiSearchField": "q",
+    "filterField": "titleAbstract"
   },
   {
     "id": "ai_philosophy",
     "name": "AI×哲学",
     "sheetName": "papers_ai_philosophy",
+    "keywordMatch": "token",
     "queries": {
-      "cinii": ["人工知能 哲学", "人工知能 倫理", "AI 意識"],
-      "arxiv": ["(ti:\"artificial intelligence\" OR ti:\"large language model\") AND (ti:philosophy OR ti:ethics OR ti:consciousness)"],
-      "crossref": ["artificial intelligence philosophy", "artificial intelligence ethics"]
+      "cinii": [
+        "人工知能 哲学",
+        "人工意識",
+        "機械 意識",
+        "AI 道徳",
+        "大規模言語モデル 哲学",
+        "artificial intelligence philosophy",
+        "machine consciousness",
+        "machine moral agency"
+      ],
+      "arxiv": [
+        "ti:\"machine consciousness\" OR ti:\"artificial consciousness\" OR ti:\"machine sentience\"",
+        "ti:\"machine ethics\" OR ti:\"artificial moral\" OR ti:\"moral agency\"",
+        "(ti:AI OR ti:\"artificial intelligence\" OR ti:\"language model\" OR ti:LLM OR ti:LLMs) AND (ti:philosophy OR ti:philosophical OR ti:epistemology OR ti:intentionality OR ti:personhood OR ti:\"moral status\" OR ti:\"Chinese room\")"
+      ],
+      "crossref": [
+        "artificial intelligence philosophy",
+        "machine consciousness",
+        "machine moral agency",
+        "artificial intelligence epistemology"
+      ]
     },
     "includeTitleGroups": [
-      ["人工知能", "大規模言語モデル", "artificial intelligence", "large language model", "AI"],
-      ["哲学", "倫理", "意識", "philosoph", "ethic", "conscious"]
+      [
+        "人工知能",
+        "人工意識",
+        "人工無脳",
+        "大規模言語モデル",
+        "生成AI",
+        "AI",
+        "LLM",
+        "LLMs",
+        "GPT",
+        "artificial intelligence",
+        "language model*",
+        "machine",
+        "artificial conscious*",
+        "artificial moral",
+        "artificial agent*",
+        "robot*",
+        "機械",
+        "expert system*",
+        "intelligent system*"
+      ],
+      [
+        "哲学",
+        "意識",
+        "道徳",
+        "倫理",
+        "志向性",
+        "認識論",
+        "人格",
+        "意味理解",
+        "philosoph*",
+        "conscious*",
+        "sentien*",
+        "intentionality",
+        "epistemolog*",
+        "phenomenolog*",
+        "personhood",
+        "moral agency",
+        "moral agent*",
+        "moral status",
+        "moral responsib*",
+        "artificial moral",
+        "machine ethics",
+        "Chinese room"
+      ]
+    ],
+    "excludeTitleKeywords": [
+      "書評",
+      "book review",
+      "corrigendum",
+      "erratum",
+      "retraction",
+      "benchmark*",
+      "quantization",
+      "object detection",
+      "segmentation",
+      "web attack",
+      "investment philosophy",
+      "autonomous driving",
+      "clinical trial",
+      "treatment",
+      "量子化",
+      "ベンチマーク",
+      "物体検出",
+      "治療"
     ]
   }
 ]

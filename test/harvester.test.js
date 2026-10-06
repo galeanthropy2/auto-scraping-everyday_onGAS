@@ -273,9 +273,9 @@ test('sample three-topic configuration validates and title groups apply AND/OR',
   const f = fixture({ TOPICS_JSON: fs.readFileSync('examples/topics.json', 'utf8') });
   const config = f.ctx.getConfig_();
   assert.equal(config.topics.length, 3);
-  const filtered = f.ctx.filterItems_([{ title: 'Ethics of large language models' }, { title: 'Large language models for weather' }, { title: 'Moral philosophy' }], config.topics[2], config);
+  const filtered = f.ctx.filterItems_([{ title: 'Moral agency of large language models' }, { title: 'Large language models for weather' }, { title: 'Moral philosophy' }], config.topics[2], config);
   assert.equal(filtered.length, 1);
-  assert.equal(filtered[0].title, 'Ethics of large language models');
+  assert.equal(filtered[0].title, 'Moral agency of large language models');
 });
 
 test('API cap and runtime deferral do not request out-of-range pages', () => {
@@ -291,4 +291,91 @@ test('API cap and runtime deferral do not request out-of-range pages', () => {
   f.ctx.runBackfillDaily(); assert.equal(statuses(f)[0].backfill.reason, 'api-limit');
   assert.throws(() => f.ctx.fetchText_('https://example.org/', 'cinii', config, { requests: 0, deadline: 100001, lastFetch: {} }), /budget/);
   assert.equal(f.calls.length, 1);
+});
+
+test('real sampled titles retain philosophical papers and reject medical/engineering false positives', () => {
+  const f = fixture({ TOPICS_JSON: fs.readFileSync('examples/topics.json', 'utf8') });
+  const config = f.ctx.getConfig_();
+  const cases = JSON.parse(fs.readFileSync('test/query-relevance-cases.json', 'utf8'));
+  for (const c of cases) {
+    const topic = config.topics.find(t => t.id === c.topic);
+    assert.equal(f.ctx.filterItems_([{ title: c.title }], topic, config).length > 0, c.expected, `${c.title}: ${c.reason}`);
+  }
+});
+
+test('token matching supports inflections, Japanese/English compounds and punctuation without substring accidents', () => {
+  const { ctx } = fixture();
+  assert.equal(ctx.matchesKeyword_('training moral responsibility', 'AI', 'token'), false);
+  assert.equal(ctx.matchesKeyword_('explain consciousness', 'AI', 'token'), false);
+  assert.equal(ctx.matchesKeyword_('生成ＡＩの哲学', 'AI', 'token'), true);
+  assert.equal(ctx.matchesKeyword_('AI-mediated philosophy', 'AI', 'token'), true);
+  assert.equal(ctx.matchesKeyword_('philosophical concerns', 'philosoph*', 'token'), true);
+  assert.equal(ctx.matchesKeyword_('dream–reality confusion', 'dream reality', 'token'), true);
+  assert.equal(ctx.matchesKeyword_('machine moral agency', 'moral agent*', 'token'), false);
+  assert.equal(ctx.matchesKeyword_('foo (bar)', '(bar)', 'token'), true);
+  assert.equal(ctx.matchesKeyword_('foo XbarX', '(bar)', 'token'), false);
+  // Existing user configurations keep the previous substring behavior unless opted in.
+  assert.equal(ctx.matchesKeyword_('philosophical', 'philosoph', 'substring'), true);
+});
+
+test('experimental philosophy can use abstract context, while title exclusions remain title-only', () => {
+  const f = fixture({ TOPICS_JSON: fs.readFileSync('examples/topics.json', 'utf8') });
+  const config = f.ctx.getConfig_(), topic = config.topics[1];
+  const paper = { title: '表象・説明・道徳的責任', abstract: 'A theoretical explanation of moral intuitions and compatibilist responses.' };
+  assert.equal(f.ctx.filterItems_([paper], topic, config).length, 1);
+  assert.equal(f.ctx.filterItems_([{ title: paper.title }], topic, config).length, 0);
+  assert.equal(f.ctx.filterItems_([{ title: 'Book review: Experimental Philosophy', abstract: 'Experimental philosophy' }], topic, config).length, 0);
+  const stream = f.ctx.getStreams_(config).find(s => s.topic.id === topic.id && s.source === 'cinii');
+  f.state.fetch = () => ({ text: atom([]) });
+  f.ctx.fetchPage_(stream, 0, 5, 'weekly', config, { requests: 0, deadline: 999999, lastFetch: {} });
+  const url = new URL(f.calls[0].url);
+  assert.equal(url.searchParams.get('q'), stream.query);
+  assert.equal(url.searchParams.has('title'), false);
+});
+
+test('Crossref uses supported bibliographic relevance search and a stable weekly publication window', () => {
+  const f = fixture({ TOPICS_JSON: JSON.stringify([{ id: 'x', sheetName: 'x', queries: { crossref: ['experimental philosophy'] } }]), MAX_ITEMS: '1' });
+  f.state.fetch = () => ({ text: JSON.stringify({ status: 'ok', message: { 'total-results': 100, items: [{ DOI: `10.test/${f.calls.length}`, title: [`paper ${f.calls.length}`] }] } }) });
+  f.ctx.runNewArrivalsWeekly();
+  const config = f.ctx.getConfig_(), stream = f.ctx.getStreams_(config)[0];
+  const key = f.ctx.stateKey_(stream, config, 'weekly'), saved = JSON.parse(f.props[key]);
+  assert.ok(saved.windowStart && saved.windowEnd);
+  saved.windowStart = '2024-01-01'; saved.windowEnd = '2025-01-01'; f.props[key] = JSON.stringify(saved);
+  f.ctx.runNewArrivalsWeekly();
+  const url = new URL(f.calls[1].url);
+  assert.equal(url.searchParams.get('query.bibliographic'), 'experimental philosophy');
+  assert.equal(url.searchParams.has('query.title'), false);
+  assert.equal(url.searchParams.get('sort'), 'score');
+  assert.equal(url.searchParams.get('filter'), 'type:journal-article,from-pub-date:2024-01-01,until-pub-date:2025-01-01');
+  assert.equal(url.searchParams.get('offset'), '1');
+});
+
+test('Crossref relevance tail is capped independently of the general backfill page limit', () => {
+  const f = fixture({ TOPICS_JSON: JSON.stringify([{ id: 'x', sheetName: 'x', queries: { crossref: ['dream skepticism'] } }]), CROSSREF_BACKFILL_PAGES: '1' });
+  f.state.fetch = () => ({ text: JSON.stringify({ status: 'ok', message: { 'total-results': 100, items: [{ DOI: '10.test/a', title: ['a'] }] } }) });
+  f.ctx.runBackfillDaily();
+  assert.equal(statuses(f)[0].backfill.reason, 'page-limit');
+  assert.equal(new URL(f.calls[0].url).searchParams.get('filter'), 'type:journal-article');
+});
+
+test('CiNii preview batches do not write sheets, mail, or harvest checkpoints', () => {
+  const f = fixture({ KEYWORDS_LIST: '夢,悪夢', MAX_FETCH_REQUESTS: '1' });
+  paged(f, ['夢']);
+  let result = f.ctx.previewCiniiQueries();
+  assert.equal(result.totalQueries, 2); assert.equal(result.nextStart, 1);
+  assert.equal(result.results[0].items[0].title, '夢');
+  assert.equal(f.sheets.size, 0); assert.equal(f.mails.length, 0);
+  assert.equal(Object.keys(f.props).some(k => k.startsWith('PAPERS_V2_')), false);
+  f.props.CINII_PREVIEW_START = '1'; result = f.ctx.previewCiniiQueries();
+  assert.equal(result.nextStart, null); assert.equal(result.results[0].query, '悪夢');
+});
+
+test('invalid per-topic filter configurations fail before side effects; filter changes reset only the affected state', () => {
+  const make = change => fixture({ TOPICS_JSON: JSON.stringify([{ id: 'x', sheetName: 'x', queries: { cinii: ['x'] }, ...change }]) });
+  assert.throws(() => make({ includeTitleAnyGroups: [[]] }).ctx.getConfig_(), /includeTitleAnyGroups/);
+  assert.throws(() => make({ keywordMatch: 'regex' }).ctx.getConfig_(), /keywordMatch/);
+  assert.throws(() => make({ filterField: 'body' }).ctx.getConfig_(), /filterField/);
+  const f = make({ keywordMatch: 'token' }); f.ctx.runBackfillDaily();
+  const topics = JSON.parse(f.props.TOPICS_JSON); topics[0].excludeTitleKeywords = ['x']; f.props.TOPICS_JSON = JSON.stringify(topics);
+  assert.equal(statuses(f)[0].backfill.done, false);
 });

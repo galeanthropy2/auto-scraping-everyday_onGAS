@@ -38,7 +38,7 @@ function runHarvest_(mode) {
       var store = stores[stream.topic.id];
       var count = Math.min(config.perKeywordCount, config.maxItems - result.added);
       try {
-        var page = fetchPage_(stream, state.offset, count, mode, config, budget);
+        var page = fetchPage_(stream, state.offset, count, mode, config, budget, state);
         if (page.items.length > count) throw new Error('API returned more rows than requested');
         var signature = page.items.length ? hash_(JSON.stringify(page.items.map(itemKey_))) : '';
         if (signature && signature === state.lastPage) {
@@ -61,7 +61,7 @@ function runHarvest_(mode) {
           } else if (state.offset >= sourceLimit_(stream.source)) {
             state.done = true;
             state.reason = 'api-limit';
-          } else if (mode === 'backfill' && state.pages >= config.maxBackfillPages) {
+          } else if (mode === 'backfill' && state.pages >= Math.min(config.maxBackfillPages, stream.source === 'crossref' ? config.crossrefBackfillPages : config.maxBackfillPages)) {
             state.done = true;
             state.reason = 'page-limit';
           } else if (mode === 'weekly' && state.pages >= config.weeklyPages) {
@@ -109,6 +109,8 @@ function getConfig_() {
     maxFetchRequests: intSetting_(p, 'MAX_FETCH_REQUESTS', 10, 1, 100),
     maxPagesPerRun: intSetting_(p, 'MAX_PAGES_PER_RUN', 3, 1, 20),
     maxBackfillPages: intSetting_(p, 'MAX_BACKFILL_PAGES', 1000, 1, 10000),
+    crossrefBackfillPages: intSetting_(p, 'CROSSREF_BACKFILL_PAGES', 20, 1, 1000),
+    crossrefLookbackDays: intSetting_(p, 'CROSSREF_LOOKBACK_DAYS', 365, 1, 3650),
     weeklyPages: intSetting_(p, 'WEEKLY_PAGES', 3, 1, 100),
     maxRuntimeMs: intSetting_(p, 'MAX_RUNTIME_SECONDS', 240, 30, 270) * 1000,
     abstractMaxChars: intSetting_(p, 'ABSTRACT_MAX_CHARS', 200, 0, 5000),
@@ -153,6 +155,13 @@ function getConfig_() {
       t.queries[source] = Array.from(new Set(queries.map(function (q) { return q.trim(); })));
       if (source === 'cinii' && !config.appId) throw new Error('Missing CINII_APP_ID');
     });
+    if (t.ciniiSearchField !== undefined && ['q', 'title'].indexOf(t.ciniiSearchField) < 0) throw new Error('ciniiSearchField must be q or title');
+    if (t.filterField !== undefined && ['title', 'titleAbstract'].indexOf(t.filterField) < 0) throw new Error('filterField must be title or titleAbstract');
+    if (t.keywordMatch !== undefined && ['substring', 'token'].indexOf(t.keywordMatch) < 0) throw new Error('keywordMatch must be substring or token');
+    if (t.excludeTitleKeywords !== undefined && (!Array.isArray(t.excludeTitleKeywords) || t.excludeTitleKeywords.some(function (v) { return typeof v !== 'string' || !v.trim(); }))) throw new Error('excludeTitleKeywords must be a string array');
+    if (t.includeTitleAnyGroups !== undefined && (!Array.isArray(t.includeTitleAnyGroups) || !t.includeTitleAnyGroups.length || t.includeTitleAnyGroups.some(function (g) {
+      return !Array.isArray(g) || !g.length || g.some(function (v) { return typeof v !== 'string' || !v.trim(); });
+    }))) throw new Error('includeTitleAnyGroups must be non-empty arrays of non-empty strings');
     if (t.includeTitleGroups !== undefined && (!Array.isArray(t.includeTitleGroups) || t.includeTitleGroups.some(function (g) {
       return !Array.isArray(g) || !g.length || g.some(function (s) { return typeof s !== 'string' || !s.trim(); });
     }))) throw new Error('includeTitleGroups must be arrays of non-empty strings');
@@ -177,7 +186,10 @@ function stateKey_(stream, config, mode) {
   return PAPER_STATE_PREFIX_ + mode + '_' + hash_(JSON.stringify([
     config.spreadsheetId, stream.topic.id, stream.topic.sheetName, stream.source, stream.query,
     config.searchFieldMode, config.lang, config.requireAbstract, config.excludeTitleKeywords,
-    config.excludeMode, stream.topic.includeTitleGroups || [], config.maxBackfillPages, config.weeklyPages
+    config.excludeMode, stream.topic.includeTitleGroups || [], config.maxBackfillPages, config.weeklyPages,
+    stream.topic.ciniiSearchField || config.searchFieldMode, stream.topic.filterField || 'title',
+    stream.topic.keywordMatch || 'substring', stream.topic.excludeTitleKeywords || null, stream.topic.includeTitleAnyGroups || null,
+    stream.source === 'crossref' ? ['bibliographic-score-v1', config.crossrefBackfillPages, config.crossrefLookbackDays] : null
   ]));
 }
 function newState_() { return { offset: 0, pages: 0, done: false, reason: '', lastPage: '' }; }
@@ -196,20 +208,30 @@ function sourceLimit_(source) { return source === 'arxiv' ? 30000 : 10000; }
 function hasBudget_(budget, config) { return budget.requests < config.maxFetchRequests && Date.now() < budget.deadline - 15000; }
 function budgetError_() { var error = new Error('Run budget reached'); error.budget = true; return error; }
 
-function fetchPage_(stream, offset, count, mode, config, budget) {
+function fetchPage_(stream, offset, count, mode, config, budget, state) {
   count = Math.min(count, sourceLimit_(stream.source) - offset);
   if (count <= 0) throw new Error('API result limit reached');
   var ascending = mode === 'backfill';
   var params, url;
   if (stream.source === 'cinii') {
     params = { count: count, start: offset + 1, sortorder: ascending ? 1 : 0, format: 'atom', lang: config.lang, appid: config.appId };
-    params[config.searchFieldMode] = stream.query;
+    params[stream.topic.ciniiSearchField || config.searchFieldMode] = stream.query;
     url = 'https://cir.nii.ac.jp/opensearch/articles';
   } else if (stream.source === 'arxiv') {
     params = { search_query: stream.query, start: offset, max_results: count, sortBy: 'submittedDate', sortOrder: ascending ? 'ascending' : 'descending' };
     url = 'https://export.arxiv.org/api/query';
   } else {
-    params = { 'query.title': stream.query, rows: count, offset: offset, sort: 'published', order: ascending ? 'asc' : 'desc', filter: 'type:journal-article' };
+    // Crossref query.bibliographic is relevance search, NOT a strict Boolean/title filter.
+    // Date sorting otherwise promotes unrelated papers containing only one query term.
+    params = { 'query.bibliographic': stream.query, rows: count, offset: offset, sort: 'score', order: 'desc', filter: 'type:journal-article' };
+    if (mode === 'weekly') {
+      state = state || {};
+      if (!state.windowEnd) {
+        state.windowEnd = new Date().toISOString().slice(0, 10);
+        state.windowStart = new Date(Date.parse(state.windowEnd + 'T00:00:00Z') - config.crossrefLookbackDays * 86400000).toISOString().slice(0, 10);
+      }
+      params.filter += ',from-pub-date:' + state.windowStart + ',until-pub-date:' + state.windowEnd;
+    }
     url = 'https://api.crossref.org/works';
   }
   var text = fetchText_(url + '?' + queryString_(params), stream.source, config, budget);
@@ -304,14 +326,31 @@ function filterItems_(items, topic, config) {
   items.forEach(function (item) {
     if (config.requireAbstract && !normalizeAbstract_(item.abstract)) return;
     var title = String(item.title).normalize('NFKC').toLowerCase();
+    var text = title + (topic.filterField === 'titleAbstract' ? ' ' + normalizeAbstract_(item.abstract).normalize('NFKC').toLowerCase() : '');
+    var matches = function (word) { return matchesKeyword_(text, word, topic.keywordMatch || 'substring'); };
     if ((topic.includeTitleGroups || []).some(function (group) {
-      return !group.some(function (word) { return title.indexOf(word.normalize('NFKC').toLowerCase()) >= 0; });
+      return !group.some(matches);
     })) return;
-    var excluded = config.excludeTitleKeywords.some(function (word) { return title.indexOf(word.toLowerCase()) >= 0; });
+    if (topic.includeTitleAnyGroups && !topic.includeTitleAnyGroups.some(function (group) { return group.every(matches); })) return;
+    var exclusions = topic.excludeTitleKeywords === undefined ? config.excludeTitleKeywords : topic.excludeTitleKeywords;
+    var excluded = exclusions.some(function (word) { return matchesKeyword_(title, word, topic.keywordMatch || 'substring'); });
     if (excluded && config.excludeMode === 'exclude') return;
     (excluded ? demoted : kept).push(item);
   });
   return kept.concat(demoted); // Never slice fetched results: all accepted rows are saved.
+}
+// Token mode prevents AI from matching "training" and supports explicit suffix stems (philosoph*).
+// ASCII word boundaries allow Japanese compounds such as 生成AI; no user-supplied regex is evaluated.
+function matchesKeyword_(title, keyword, mode) {
+  var normalize = function (s) { return String(s).normalize('NFKC').toLowerCase().replace(/[‐‑‒–—−-]/g, ' ').replace(/\s+/g, ' ').trim(); };
+  if (mode !== 'token') return title.indexOf(String(keyword).normalize('NFKC').toLowerCase()) >= 0;
+  var text = normalize(title), term = normalize(keyword);
+  var stem = /[a-z]\*$/.test(term);
+  if (stem) term = term.slice(0, -1);
+  var escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  var left = /^[a-z0-9]/.test(term) ? '(^|[^a-z0-9])' : '';
+  var right = /[a-z0-9]$/.test(term) ? '($|[^a-z0-9])' : '';
+  return new RegExp(left + escaped + (stem ? '[a-z]*' : '') + right).test(text);
 }
 function ensureHeader_(sheet) {
   if (!sheet.getLastRow()) {
@@ -455,4 +494,34 @@ function stopHarvestTriggers() {
   var lock = LockService.getScriptLock();
   if (!lock.tryLock(1000)) throw new Error('Harvester is running');
   try { deleteHarvestTriggers_(); } finally { lock.releaseLock(); }
+}
+
+// Read-only CiNii verification in the operator's GAS/AppID environment.
+// Set CINII_PREVIEW_START to nextStart from the preceding result to inspect the next batch.
+function previewCiniiQueries() {
+  var lock = LockService.getScriptLock();
+  if (!lock.tryLock(1000)) throw new Error('Harvester is running');
+  try {
+    var config = getConfig_();
+    var start = intSetting_(PropertiesService.getScriptProperties().getProperties(), 'CINII_PREVIEW_START', 0, 0, 100);
+    var streams = getStreams_(config).filter(function (s) { return s.source === 'cinii'; });
+    var budget = { requests: 0, deadline: Date.now() + config.maxRuntimeMs, lastFetch: {} };
+    var result = { totalQueries: streams.length, nextStart: null, results: [] };
+    var index = start;
+    for (; index < streams.length && hasBudget_(budget, config); index++) {
+      var stream = streams[index];
+      try {
+        var page = fetchPage_(stream, 0, 5, 'weekly', config, budget);
+        result.results.push({ topic: stream.topic.id, query: stream.query, total: page.total,
+          items: page.items.map(function (item) { return { title: item.title, link: item.link,
+            accepted: filterItems_([item], stream.topic, config).length > 0 }; }) });
+      } catch (e) {
+        result.results.push({ topic: stream.topic.id, query: stream.query, error: safeError_(e) });
+        break;
+      }
+    }
+    result.nextStart = index < streams.length ? index : null;
+    Logger.log(JSON.stringify(result));
+    return result;
+  } finally { lock.releaseLock(); }
 }

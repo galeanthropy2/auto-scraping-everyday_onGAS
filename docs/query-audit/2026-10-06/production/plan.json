@@ -1,0 +1,236 @@
+[
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream consciousness",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream phenomenology",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "dream skepticism",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "dream",
+    "source": "crossref",
+    "query": "lucid dreaming philosophy",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "experimental philosophy",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "folk intuitions",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "epistemic intuitions",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Knobe effect",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "experimental_philosophy",
+    "source": "crossref",
+    "query": "Gettier intuitions",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence philosophy",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine consciousness",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "machine moral agency",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "production",
+    "query_field": "query.bibliographic"
+  },
+  {
+    "topic": "ai_philosophy",
+    "source": "crossref",
+    "query": "artificial intelligence epistemology",
+    "order": "relevance",
+    "phase": "production-weekly",
+    "from_date": "2025-10-06",
+    "until_date": "2026-10-06",
+    "query_field": "query.bibliographic"
+  }
+]
